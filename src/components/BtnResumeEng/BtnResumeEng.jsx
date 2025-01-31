@@ -4,7 +4,7 @@ import { FaFilePdf } from "react-icons/fa";
 
 const BtnResumeEng = () => {
     const handleOpenResume = () => {
-        const resumeEngUrl = "/documents/AlejandroMartinezRivera-Resume.pdf";
+        const resumeEngUrl = "documents/AlejandroMartinezRivera-Resume.pdf";
         window.open(resumeEngUrl, "_blank");
     };
 

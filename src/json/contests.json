@@ -1,21 +1,21 @@
 [
     {
         "contest":"ICPC Texas University.",
-        "picture":"/contests/icpc-contest.jpeg",
+        "picture":"contests/icpc-contest.jpeg",
         "place":"Texas University in San Marcos, Texas",
         "technologies":"Java and C++.",
         "type":"International",
         "date":"April 1st, 2023"
     },{
         "contest":"8° ITS San Pedro Contest.",
-        "picture":"/contests/8its-sanpedro-contest.jpeg",
+        "picture":"contests/8its-sanpedro-contest.jpeg",
         "place":"TecNM San Pedro Campus, Coahuila",
         "technologies":"Java, JavaScript, Python, SQl, C and C++.",
         "type":"National",
         "date":"May 31th, 2023"
     },{
         "contest":"3er ITSA Contest.",
-        "picture":"/contests/3er-itsa-contest.jpeg",
+        "picture":"contests/3er-itsa-contest.jpeg",
         "place":"TecNM Ciudad Acuña Campus, Coahuila",
         "technologies":"Java, Python, SQl, C and C++.",
         "type":"International",

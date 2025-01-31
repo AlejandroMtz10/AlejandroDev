@@ -1,22 +1,22 @@
 [
     {
         "title":"Best Grade Point Average.",
-        "image":"/awards/award-2021.jpeg",
+        "image":"awards/award-2021.jpeg",
         "description":"As a 4th-semester student, I achieved a top 10 ranking in the Systems Academy, which included students from all semesters, I had the 6th place in the ranking.",
         "year":"2021"
     }, {
         "title":"Best Grade Point Average.",
-        "image":"/awards/award-2022.jpeg",
+        "image":"awards/award-2022.jpeg",
         "description":"As a 7th-semester student, I achieved a top 10 ranking in the Systems Academy, which included students from all semesters, I had the 1st place in the ranking.",
         "year":"2022"
     }, {
         "title":"Best Grade Point Average.",
-        "image":"/awards/award-2023.jpeg",
+        "image":"awards/award-2023.jpeg",
         "description":"As a 8th-semester student, I achieved a top 10 ranking in the Systems Academy, which included students from all semesters, I had the 1st place in the ranking.",
         "year":"2023"
     }, {
         "title":"Best Grade Point Average.",
-        "image":"/awards/award-2024.jpeg",
+        "image":"awards/award-2024.jpeg",
         "description":"Graduated in 2024 with honors and as the top student of my class in the Computer Systems Engineering program of the 2019 - 2024 generation.",
         "year":"2024"
     }

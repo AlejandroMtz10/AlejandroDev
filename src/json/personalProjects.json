@@ -3,7 +3,7 @@
         "project":"Personality Tests",
         "type":"Desktop Application",
         "stack": [
-            {"tech":"MySQL","icon":"/toolsLogos/my-sql.svg"},
+            {"tech":"MySQL","icon":"toolsLogos/my-sql.svg"},
             {"tech":"Visual Basic","icon":"technologiesLogos/visual-basic.svg"},
             {"tech":"Git","icon":"toolsLogos/git.svg"},
             {"tech":"GitHub","icon":"toolsLogos/github.svg"}
@@ -17,8 +17,8 @@
         "project":"Servicios y suministros Titan",
         "type":"Web",
         "stack": [
-            {"tech":"PHP","icon":"/technologiesLogos/php.svg"},
-            {"tech":"JavaScript","icon":"/technologiesLogos/java-script.svg"},
+            {"tech":"PHP","icon":"technologiesLogos/php.svg"},
+            {"tech":"JavaScript","icon":"technologiesLogos/java-script.svg"},
             {"tech":"Maria DB","icon":"/toolsLogos/maria-db.svg"},
             {"tech":"HTML","icon":"technologiesLogos/html.svg"},
             {"tech":"CSS","icon":"technologiesLogos/css.svg"},
@@ -35,7 +35,7 @@
         "project":"Cesar's Snack",
         "type":"Desktop Application",
         "stack": [
-            {"tech":"Microsoft SQL Server","icon":"/toolsLogos/sql-server.svg"},
+            {"tech":"Microsoft SQL Server","icon":"toolsLogos/sql-server.svg"},
             {"tech":"Visual Basic","icon":"technologiesLogos/visual-basic.svg"},
             {"tech":"Git","icon":"toolsLogos/git.svg"},
             {"tech":"GitHub","icon":"toolsLogos/github.svg"}
