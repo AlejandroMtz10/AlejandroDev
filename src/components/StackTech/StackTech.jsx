@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import TechCard from "../TechCard";
-import technologies from "../../json/technologies.json"; // Import JSON Document
+import technologies from "/json/technologies.json"; // Import JSON Document
 
 const StackTech = () => {
     const [techs, setTechs] = useState([]);
