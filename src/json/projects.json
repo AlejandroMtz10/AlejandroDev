@@ -6,8 +6,8 @@
         "platform":"Desktop application",
         "picture":"/projects/Toter_Detail_Shipment.png",
         "technologies": [
-            {"name":"Excel","logo":"/toolsLogos/excel.svg"},
-            {"name":"MySQL","logo":"/toolsLogos/my-sql.svg"},
+            {"name":"Excel","logo":"toolsLogos/excel.svg"},
+            {"name":"MySQL","logo":"toolsLogos/my-sql.svg"},
             {"name":"Visual Basic","logo":"technologiesLogos/visual-basic.svg"},
             {"name":"Git","logo":"toolsLogos/git.svg"},
             {"name":"GitHub","logo":"toolsLogos/github.svg"}
