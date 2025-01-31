@@ -8,7 +8,7 @@
             {"tech":"Git","icon":"toolsLogos/git.svg"},
             {"tech":"GitHub","icon":"toolsLogos/github.svg"}
         ],
-        "picture":"/projects/Personality-Tests.PNG",
+        "picture":"projects/Personality-Tests.PNG",
         "github":"https://github.com/AlejandroMtz10/PersonalityTests",
         "client":"Lic. Martin Reyes",
         "description":"Desktop application for conducting personal psychology tests to understand patients' inner selves, serving as a starting point before beginning sessions with new patients. This platform helps save resources like paper and ink by performing the tests digitally.",
@@ -26,7 +26,7 @@
             {"tech":"Git","icon":"toolsLogos/git.svg"},
             {"tech":"GitHub","icon":"toolsLogos/github.svg"}
         ],
-        "picture":"/projects/Servicios_y_suministros_Titan.png",
+        "picture":"projects/Servicios_y_suministros_Titan.png",
         "github":"https://github.com/AlejandroMtz10/Servicios-y-suministros-Titan",
         "client":"Servicios Y Suministros Titan",
         "description":"Website for the company \"Servicios y Suministros Titan\" from Ciudad Acuña, where users can access information about the company, request quotes, or contact the company. Employees can update the prices of services and products offered to customers, ensuring the platform remains accessible and convenient for everyone.",
@@ -40,7 +40,7 @@
             {"tech":"Git","icon":"toolsLogos/git.svg"},
             {"tech":"GitHub","icon":"toolsLogos/github.svg"}
         ],
-        "picture":"/projects/Cessars-snack.PNG",
+        "picture":"projects/Cessars-snack.PNG",
         "github":"https://github.com/AlejandroMtz10/Punto-de-venta-Cesars-snack",
         "client":"Cesar Humberto Rodriguez",
         "description":"Desktop application focused on a point of sale for a fast food snack business to provide faster and more efficient service to customers. It allows for inventory control and sends alerts when stock is low or empty, if needed. This optimizes resource management and improves sales handling.",
