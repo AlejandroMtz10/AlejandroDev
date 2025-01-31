@@ -19,7 +19,7 @@
         "stack": [
             {"tech":"PHP","icon":"technologiesLogos/php.svg"},
             {"tech":"JavaScript","icon":"technologiesLogos/java-script.svg"},
-            {"tech":"Maria DB","icon":"/toolsLogos/maria-db.svg"},
+            {"tech":"Maria DB","icon":"toolsLogos/maria-db.svg"},
             {"tech":"HTML","icon":"technologiesLogos/html.svg"},
             {"tech":"CSS","icon":"technologiesLogos/css.svg"},
             {"tech":"Bootstrap","icon":"technologiesLogos/bootstrap.svg"},
