@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Git",
+        "image": "/toolsLogos/git.svg",
+        "description": "Version control system for tracking code changes."
+    },
+    {
+        "name": "GitHub",
+        "image": "/toolsLogos/github.svg",
+        "description": "Platform for hosting and collaborating on Git repositories."
+    },
+    {
+        "name": "Maria DB",
+        "image": "/toolsLogos/maria-db.svg",
+        "description": "Open-source relational database management system."
+    },
+    {
+        "name": "MySQL",
+        "image": "/toolsLogos/my-sql.svg",
+        "description": "Popular open-source relational database management system."
+    },
+    {
+        "name": "Microsoft SQL Server",
+        "image": "/toolsLogos/sql-server.svg",
+        "description": "Relational database management system by Microsoft."
+    },
+    {
+        "name": "SharePoint",
+        "image": "/toolsLogos/sharepoint.svg",
+        "description": "Microsoft tool for managing data using lists and collaboration."
+    },
+    {
+        "name": "Power Apps",
+        "image": "/toolsLogos/power-apps.svg",
+        "description": "Low-code platform for building custom apps."
+    },
+    {
+        "name": "Power Automate",
+        "image": "/toolsLogos/power-automate.svg",
+        "description": "Tool for creating automated workflows across applications."
+    },
+    {
+        "name": "Power BI",
+        "image": "/toolsLogos/power-bi.svg",
+        "description": "Business analytics tool for data visualization and insights."
+    },
+    {
+        "name": "Postman",
+        "image": "/toolsLogos/postman.svg",
+        "description": "Tool for testing APIs and managing requests."
+    },
+    {
+        "name": "Visual Studio",
+        "image": "/toolsLogos/visual-studio.svg",
+        "description": "Integrated development environment (IDE) by Microsoft."
+    },
+    {
+        "name": "Visual Studio Code",
+        "image": "/toolsLogos/vs-code.svg",
+        "description": "Lightweight code editor with extensive extension support."
+    },
+    {
+        "name": "UML",
+        "image": "/toolsLogos/uml.svg",
+        "description": "Unified Modeling Language for designing software systems."
+    },
+    {
+        "name": "Draw.io",
+        "image": "/toolsLogos/drawio.svg",
+        "description": "Tool for creating diagrams and flowcharts."
+    },
+    {
+        "name": "XAMPP",
+        "image": "/toolsLogos/xampp.svg",
+        "description": "Software stack for running a local web server."
+    }
+]

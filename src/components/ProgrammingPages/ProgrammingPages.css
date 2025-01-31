@@ -1,0 +1,49 @@
+@import '../../assets/fonts/stylesFonts.css';
+
+h2{
+    font-family: 'AvenirNextLTPro', sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'AvenirNextLTPro', sans-serif;
+    font-weight: bold;
+}
+
+.pBeecrowd{
+    font-family: 'AvenirNextLTPro', sans-serif;
+    font-weight: bold;
+    color: #983BC0;
+}
+
+.btnBeecrowd{
+    font-family: 'AvenirNextLTPro', sans-serif;
+    background-color: #983BC0;
+    border: 2px solid #983BC0;
+    font-weight: bold;
+}
+
+.pLeetCode{
+    font-family: 'AvenirNextLTPro', sans-serif;
+    font-weight: bold;
+    color: #FFA116;
+}
+
+.btnLeetCode{
+    font-family: 'AvenirNextLTPro', sans-serif;
+    background-color: #FFA116;
+    border: 2px solid #FFA116;
+    font-weight: bold;
+}
+
+.btnBeecrowd:hover{
+    color: #983BC0;
+    border: 2px solid #983BC0;
+    background: white;
+}
+
+.btnLeetCode:hover{
+    color: #FFA116;
+    border: 2px solid #FFA116;
+    background: white;
+}

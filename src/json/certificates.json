@@ -1,0 +1,15 @@
+[
+    {
+        "course":"SQL",
+        "platform":"SoloLearn",
+        "picture":"/certificates/SQL-SoloLearn.jpg"
+    },{
+        "course":"Web Development Fundamentals",
+        "platform":"SoloLearn",
+        "picture":"/certificates/Web-Development-Fundamentals-SoloLearn.jpeg"
+    },{
+        "course":"PHP",
+        "platform":"SoloLearn",
+        "picture":"/certificates/PHP-SoloLearn.jpeg"
+    }
+]

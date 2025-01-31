@@ -1,0 +1,55 @@
+[
+    {
+        "project":"Toter Detail Shipment.",
+        "type":"Private",
+        "company":"Toter",
+        "platform":"Desktop application",
+        "picture":"/projects/Toter_Detail_Shipment.png",
+        "technologies": [
+            {"name":"Excel","logo":"/toolsLogos/excel.svg"},
+            {"name":"MySQL","logo":"/toolsLogos/my-sql.svg"},
+            {"name":"Visual Basic","logo":"technologiesLogos/visual-basic.svg"},
+            {"name":"Git","logo":"toolsLogos/git.svg"},
+            {"name":"GitHub","logo":"toolsLogos/github.svg"}
+        ],
+        "description":"Toter Detail Shipment is a software focused on providing access to information about shipments sent from one factory to another within Ciudad Acuña. It allows engineers and personnel involved in the process to monitor the status of a shipment and control inventory, saving significant amounts of money on lost shipments and reducing the time required for product inventory management."
+    },{
+        "project":"MSO Trucks.",
+        "type":"Private",
+        "company":"Caterpillar",
+        "platform":"Web application",
+        "picture":"/projects/MSO-Trucks.png",
+        "technologies":[
+            {"name":"SharePoint", "logo":"/toolsLogos/sharepoint.svg"},
+            {"name":"Power Apps", "logo":"/toolsLogos/power-apps.svg"},
+            {"name":"Power BI", "logo":"/toolsLogos/power-bi.svg"}
+        ],
+        "description":"MSO Trucks is an intuitive application designed for the traceability of serial numbers corresponding to part assemblies for a specific model. It helps save money in engineering, logistics, and quality departments by providing all these areas with access to records created for each part, making it easy to find documentation when needed or verify if the assemblies were shipped on time and in compliance."
+    },{
+        "project":"Goals.",
+        "type":"Private",
+        "company":"Caterpillar",
+        "platform":"Web application",
+        "picture":"/projects/Goals.png",
+        "technologies":[
+            {"name":"SharePoint", "logo":"/toolsLogos/sharepoint.svg"},
+            {"name":"Power Apps", "logo":"/toolsLogos/power-apps.svg"},
+            {"name":"Power BI", "logo":"/toolsLogos/power-bi.svg"},
+            {"name":"Power Automate", "logo":"/toolsLogos/power-automate.svg"}
+        ],
+        "description":"Goals is an application focused on evaluating productivity, compliance with quality standards, accident-free safety days, and other metrics. It enables the creation of analyses to make decisions that improve the company’s production processes, safety, and employee well-being within the factory. Power BI is used to visualize the statistical data collected throughout the application’s usage."
+    },{
+        "project":"Marked drawings.",
+        "type":"Private",
+        "company":"Caterpillar",
+        "platform":"Web application",
+        "picture":"/projects/Marked-Drawings.png",
+        "technologies":[
+            {"name":"SharePoint", "logo":"/toolsLogos/sharepoint.svg"},
+            {"name":"Power Apps", "logo":"/toolsLogos/power-apps.svg"},
+            {"name":"Power BI", "logo":"/toolsLogos/power-bi.svg"},
+            {"name":"Power Automate", "logo":"/toolsLogos/power-automate.svg"}
+        ],
+        "description":"Marked Drawings is an application for the engineering department that helps monitor temporary engineering changes made to drawings. Power Automate flows are used to send email notifications when one or more drawings expire on a specified date, automatically changing their status to expired this ensures traceability of the drawings, prevents duplication of temporarily modified drawings, and keeps them up to date."
+    }
+]

@@ -1,0 +1,19 @@
+@import '../../assets/fonts/stylesFonts.css';
+
+h3{
+    font-family: 'AvenirNextLTPro';
+    font-weight: bold;
+    font-size: 28px;
+    color: dodgerblue;
+}
+
+h4{
+    font-family: 'AvenirNextLTPro';
+    font-weight: bold;
+    font-size: 25px;
+    color: dodgerblue;
+}
+
+p{
+    font-family: 'AvenirNextLTPro';
+}

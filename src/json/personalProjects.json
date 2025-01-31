@@ -1,0 +1,49 @@
+[
+    {
+        "project":"Personality Tests",
+        "type":"Desktop Application",
+        "stack": [
+            {"tech":"MySQL","icon":"/toolsLogos/my-sql.svg"},
+            {"tech":"Visual Basic","icon":"technologiesLogos/visual-basic.svg"},
+            {"tech":"Git","icon":"toolsLogos/git.svg"},
+            {"tech":"GitHub","icon":"toolsLogos/github.svg"}
+        ],
+        "picture":"/projects/Personality-Tests.PNG",
+        "github":"https://github.com/AlejandroMtz10/PersonalityTests",
+        "client":"Lic. Martin Reyes",
+        "description":"Desktop application for conducting personal psychology tests to understand patients' inner selves, serving as a starting point before beginning sessions with new patients. This platform helps save resources like paper and ink by performing the tests digitally.",
+        "date":"August 16th, 2024"
+    }, {
+        "project":"Servicios y suministros Titan",
+        "type":"Web",
+        "stack": [
+            {"tech":"PHP","icon":"/technologiesLogos/php.svg"},
+            {"tech":"JavaScript","icon":"/technologiesLogos/java-script.svg"},
+            {"tech":"Maria DB","icon":"/toolsLogos/maria-db.svg"},
+            {"tech":"HTML","icon":"technologiesLogos/html.svg"},
+            {"tech":"CSS","icon":"technologiesLogos/css.svg"},
+            {"tech":"Bootstrap","icon":"technologiesLogos/bootstrap.svg"},
+            {"tech":"Git","icon":"toolsLogos/git.svg"},
+            {"tech":"GitHub","icon":"toolsLogos/github.svg"}
+        ],
+        "picture":"/projects/Servicios_y_suministros_Titan.png",
+        "github":"https://github.com/AlejandroMtz10/Servicios-y-suministros-Titan",
+        "client":"Servicios Y Suministros Titan",
+        "description":"Website for the company \"Servicios y Suministros Titan\" from Ciudad Acuña, where users can access information about the company, request quotes, or contact the company. Employees can update the prices of services and products offered to customers, ensuring the platform remains accessible and convenient for everyone.",
+        "date":"May 30th, 2023"
+    }, {
+        "project":"Cesar's Snack",
+        "type":"Desktop Application",
+        "stack": [
+            {"tech":"Microsoft SQL Server","icon":"/toolsLogos/sql-server.svg"},
+            {"tech":"Visual Basic","icon":"technologiesLogos/visual-basic.svg"},
+            {"tech":"Git","icon":"toolsLogos/git.svg"},
+            {"tech":"GitHub","icon":"toolsLogos/github.svg"}
+        ],
+        "picture":"/projects/Cessars-snack.PNG",
+        "github":"https://github.com/AlejandroMtz10/Punto-de-venta-Cesars-snack",
+        "client":"Cesar Humberto Rodriguez",
+        "description":"Desktop application focused on a point of sale for a fast food snack business to provide faster and more efficient service to customers. It allows for inventory control and sends alerts when stock is low or empty, if needed. This optimizes resource management and improves sales handling.",
+        "date":"Jun 17th, 2022"
+    }
+]

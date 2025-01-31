@@ -1,0 +1,5 @@
+@import '../../assets/fonts/stylesFonts.css';
+
+button,p{
+    font-family: 'AvenirNextLTPro';
+}

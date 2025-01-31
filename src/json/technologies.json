@@ -1,0 +1,46 @@
+[
+    {
+        "name":"Java",
+        "image": "/technologiesLogos/java.svg"
+    },{
+        "name":"Visual Basic",
+        "image":"/technologiesLogos/visual-basic.svg"
+    },{
+        "name": "PHP",
+        "image": "/technologiesLogos/php.svg"
+    },
+    {
+        "name": "HTML",
+        "image": "/technologiesLogos/html.svg"
+    },
+    {
+        "name": "CSS",
+        "image": "/technologiesLogos/css.svg"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "/technologiesLogos/bootstrap.svg"
+    },
+    {
+        "name": "Tailwind",
+        "image": "/technologiesLogos/tailwind-css.svg"
+    },{
+        "name": "JavaScript",
+        "image": "/technologiesLogos/java-script.svg"
+    },{
+        "name": "JSON",
+        "image": "/technologiesLogos/json.svg"
+    },{
+        "name": "React",
+        "image": "/technologiesLogos/react.svg"
+    },{
+        "name":"Vite",
+        "image":"/technologiesLogos/vite.svg"
+    },{
+        "name": "Spring Boot",
+        "image": "/technologiesLogos/spring-boot-java.svg"
+    },{
+        "name": "SQL",
+        "image": "/technologiesLogos/sql.svg"
+    }
+]
