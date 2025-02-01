@@ -18,15 +18,11 @@ export default function ProgrammingPages() {
             <h2 className="p-4">
                 Platforms to practice programming
             </h2>
-            <div className="container-xl flex justify-center gap-20">
+            <div className="container-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 justify-center">
                 {/* Beecrowd card */}
-                <div className="max-w-xs bg-slate-950 rounded-2xl shadow-lg overflow-hidden">
+                <div className="max-w-xs bg-slate-950 rounded-2xl shadow-lg overflow-hidden mx-auto">
                     {/* Picture */}
-                    <img
-                        src={imgBeecrowd}
-                        alt="Beecrowd"
-                        className="w-full h-42 object-cover"
-                    />
+                    <img src={imgBeecrowd} alt="Beecrowd" className="w-full h-42 object-cover" />
                     {/* Content */}
                     <div className="p-4">
                         <h3 className="text-2xl text-white">Beecrowd</h3>
@@ -34,22 +30,16 @@ export default function ProgrammingPages() {
                             A platform for solving algorithmic problems and improving programming skills, used in competitive programming.
                         </p>
                         {/* Button */}
-                        <button
-                            onClick={goBeecrowd}
-                            className="btnBeecrowd mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
+                        <button onClick={goBeecrowd} className="btnBeecrowd mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
                             Beecrowd
                         </button>
                     </div>
                 </div>
 
                 {/* LeetCode card */}
-                <div className="max-w-xs bg-slate-950 rounded-2xl shadow-lg overflow-hidden">
+                <div className="max-w-xs bg-slate-950 rounded-2xl shadow-lg overflow-hidden mx-auto">
                     {/* Picture */}
-                    <img
-                        src={imgLeetCode}
-                        alt="Beecrowd"
-                        className="w-full h-46 object-cover"
-                    />
+                    <img src={imgLeetCode} alt="LeetCode" className="w-full h-46 object-cover" />
                     {/* Content */}
                     <div className="p-4">
                         <h3 className="text-2xl text-white">LeetCode</h3>
@@ -57,9 +47,7 @@ export default function ProgrammingPages() {
                             A platform to practice coding challenges and prepare for technical interviews with problems from real-world companies.
                         </p>
                         {/* Button */}
-                        <button
-                            onClick={goLeetcode}
-                            className="btnLeetCode mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
+                        <button onClick={goLeetcode} className="btnLeetCode mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
                             LeetCode
                         </button>
                     </div>
