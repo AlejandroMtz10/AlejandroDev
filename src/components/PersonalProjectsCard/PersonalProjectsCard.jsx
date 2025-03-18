@@ -41,7 +41,7 @@ const ProjectCard = ({ project, type, stack, picture, github, client, descriptio
 
                     {/* Technologies*/}
                     <h4>
-                        Technologies
+                        Technologies and tools
                     </h4>
                     <div className="flex flex-wrap gap-2 mt-4">
                         {stack.map((stack, index) => (
