@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./App.css";
@@ -11,7 +11,7 @@ import './assets/fonts/stylesFonts.css';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="Projects" element={<Projects />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
