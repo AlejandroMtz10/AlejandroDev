@@ -11,7 +11,7 @@ import './assets/fonts/stylesFonts.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/AlejandroDev">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
