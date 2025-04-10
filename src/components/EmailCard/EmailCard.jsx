@@ -19,33 +19,32 @@ const EmailCard = () => {
   };
 
   return (
-    <div className="border-2 border-cyan-500 rounded-2xl p-4 shadow-lg bg-zinc-700 max-w-lg mx-auto">
-      {/* Top */}
-      <div className="flex items-center gap-2 text-2xl font-bold text-cyan-400">
-        <PiMicrosoftOutlookLogoFill className="text-4xl" />
-        <span>Email</span>
-      </div>
-
-      {/* Bottom */}
-      <div className="flex justify-between items-center mt-6">
-        <p className="text-white text-2xl px-2">
-          {email}
-        </p>
-        <button
-          onClick={handleCopy}
-          className="flex items-center
-          px-4 py-2 font-medium
-          text-white bg-blue-600 rounded-md 
-          hover:bg-blue-700 focus:outline-none indent-1">
-          <IoMdCopy className="text-2xl" />
-          Copy
-        </button>
-      </div>
-
-      <ToastContainer />
+  <div className="border-2 border-cyan-500 rounded-2xl p-4 shadow-lg bg-zinc-700 max-w-sm w-full mx-auto">
+    {/* Top */}
+    <div className="flex items-center gap-2 text-2xl font-bold text-cyan-400">
+      <PiMicrosoftOutlookLogoFill className="text-4xl" />
+      <span>Email</span>
     </div>
+
+    {/* Bottom */}
+    <div className="flex flex-wrap justify-between items-center mt-6 gap-4">
+      <p className="text-white text-base sm:text-2xl px-2 break-all">
+        {email}
+      </p>
+      <button
+        onClick={handleCopy}
+        className="flex items-center gap-2
+        text-sm sm:text-base px-3 py-2
+        text-white bg-blue-600 rounded-md 
+        hover:bg-blue-700 focus:outline-none">
+        <IoMdCopy className="text-xl" />
+        Copy
+      </button>
+    </div>
+
+    <ToastContainer />
+  </div>
   );
 };
 
 export default EmailCard;
-

@@ -13,7 +13,7 @@ const SocialContact = () => {
                 <h1>Social links</h1>
             </div>
 
-            <div className="flex gap-3">
+            <div className="flex flex-col sm:flex-row gap-3">
                 <BtnGitHub />
                 <BtnLinkedIn />
             </div>
