@@ -28,12 +28,12 @@ const EmailCard = () => {
 
     {/* Bottom */}
     <div className="flex flex-wrap justify-between items-center mt-6 gap-4">
-      <p className="text-white text-base sm:text-2xl px-2 break-all">
+      <p className="text-white text-base">
         {email}
       </p>
       <button
         onClick={handleCopy}
-        className="flex items-center gap-2
+        className="flex items-center 
         text-sm sm:text-base px-3 py-2
         text-white bg-blue-600 rounded-md 
         hover:bg-blue-700 focus:outline-none">

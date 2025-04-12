@@ -19,5 +19,10 @@
         "image":"awards/award-2024.jpeg",
         "description":"Graduated in 2024 with honors and as the top student of my class in the Computer Systems Engineering program of the 2019 - 2024 generation.",
         "year":"2024"
+    }, {
+        "title":"Degree in Computer Systems Engineering.",
+        "image":"awards/degree.jpeg",
+        "description":"Awarded my Computer Systems Engineering degree and professional license.",
+        "year":"2025"
     }
 ]

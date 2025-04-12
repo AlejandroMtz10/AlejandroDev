@@ -72,13 +72,10 @@ export default function Home() {
                 <h2 className="text-white text-center sm:lg xl:text-2xl font-semibold mb-6">
                     My information
                 </h2>
-                <div className="flex flex-col sm:flex-row justify-center items-center gap-y-6 sm:gap-x-8">
-                    {/* Information cards */}
-                    <div className="flex flex-col sm:flex-row items-center gap-y-4 sm:gap-x-6 p-4">
-                        <EmailCard />
-                        <ResumeCard />
-                        <SocialContact />
-                    </div>
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                    <EmailCard />
+                    <ResumeCard />
+                    <SocialContact />
                 </div>
             </div>
 
