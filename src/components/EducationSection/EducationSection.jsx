@@ -22,6 +22,16 @@ function EducationSection(){
                 Contests
             </h2>
             <div className="container mx-auto ">
+                <p className="text-3xl text-cyan-500">
+                    I have participated in several programming contests, working in teams to solve algorithms and programming challenges using various languages. You can see more on my {" "}
+                    <a
+                        href="https://github.com/AlejandroMtz10/Competitive-programming" 
+                        rel="noopener noreferrer"
+                        className="text-cyan-600 hover:underline ml-1"
+                    >
+                         GitHub repository.
+                    </a>
+                </p>
                 <Contests />
             </div>
             <h2 className="text-4xl font-semibold text-white py-2">

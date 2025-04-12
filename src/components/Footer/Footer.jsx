@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
 
 function Footer() {
+    const year = new Date().getFullYear();
     return (
         <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center items-center gap-6 pb-2 pt-3">
@@ -42,6 +43,9 @@ function Footer() {
                     <FaCode />
                     <span className="indent-1">By Eng. Alejandro Martinez</span>
                 </div>
+            </div>
+            <div className="place-content-center place-items-center flex text-white">
+                &copy; {year}
             </div>
         </div>
     );
