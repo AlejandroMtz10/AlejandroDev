@@ -37,9 +37,6 @@
         "name":"Vite",
         "image":"technologiesLogos/vite.svg"
     },{
-        "name": "Spring Boot",
-        "image": "technologiesLogos/spring-boot-java.svg"
-    },{
         "name": "SQL",
         "image": "technologiesLogos/sql.svg"
     }
