@@ -9,7 +9,7 @@ const ProjectCard = ({ project, type, company, platform, picture, technologies, 
     return (
     <div>
         {/* Card */}
-        <div className="xl rounded-lg overflow-hidden shadow-lg bg-slate-950">
+        <div className="xl rounded-lg overflow-hidden shadow-lg bg-slate-950 py-4">
             {/* Project picture */}
             <img
                 className="w-full h-auto object-cover px-3 cursor-pointer"
