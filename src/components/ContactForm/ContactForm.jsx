@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from 'react-toastify';
 import { TbMailCancel } from "react-icons/tb";
 import { BsSendCheck } from "react-icons/bs";
+import { BiMailSend } from "react-icons/bi";
 
 const ContactForm = () => {
     const navigate = useNavigate();
@@ -84,7 +85,8 @@ const ContactForm = () => {
     return (
         <div className="flex justify-center items-center py-10">
             <div className="w-full max-w-4xl p-6 bg-gray-800 rounded-lg shadow-md">
-                <h2 className="text-4xl font-semibold text-white text-center py-4 mb-6">
+                <h2 className="text-4xl font-semibold text-white text-center py-4 mb-6 flex items-center justify-center gap-2">
+                    <BiMailSend className="text-5xl" />
                     Contact Me
                 </h2>
                 <form onSubmit={handleSubmit} className="py-3">

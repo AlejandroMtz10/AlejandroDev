@@ -4,6 +4,7 @@ import "./Footer.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
+import { LuFolderCode } from "react-icons/lu";
 
 function Footer() {
     const year = new Date().getFullYear();
@@ -32,9 +33,21 @@ function Footer() {
                     </a>
                 </div>
             </div>
+            <div className="flex flex-wrap justify-center items-center gap-6 pb-2 pt-3">
+                {/* GitHub repository */}
+                <div className="text-white hover:text-cyan-600">
+                    <a
+                        href="https://github.com/AlejandroMtz10/AlejandroDev"
+                        className="flex items-center gap-2 text-3xl"
+                    >
+                        <LuFolderCode />
+                        <span>Portfolio repository</span>
+                    </a>
+                </div>
+            </div>
             <div className="flex space-x-8 place-content-center items-center text-lg text-white pb-2">
                 <div className="place-content-center place-items-center">
-                    <p className="items-center">Made with react js and tailwind css.</p>
+                    <p className="items-center">Made with react js, vite and tailwind css.</p>
                 </div>
             </div>
 

@@ -5,7 +5,7 @@
         "stack": [
             {"tech":"PHP","icon":"technologiesLogos/php.svg"},
             {"tech":"JavaScript","icon":"technologiesLogos/java-script.svg"},
-            {"tech":"MySQL","icon":"technologiesLogos/jquery.svg"},
+            {"tech":"JQuery","icon":"technologiesLogos/jquery.svg"},
             {"tech":"MySQL","icon":"toolsLogos/my-sql.svg"},
             {"tech":"HTML","icon":"technologiesLogos/html.svg"},
             {"tech":"CSS","icon":"technologiesLogos/css.svg"},
