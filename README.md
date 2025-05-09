@@ -1,8 +1,20 @@
-# React + Vite
+# Portfolio – Eng. Alejandro Martínez Rivera
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is my first portfolio as a Computer Systems Engineer. Here you can explore my experience in software development through personal projects, work completed for companies, and competitive programming. If you like the design or specific sections of the portfolio, feel free to use the code as a template.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies and Tools
+
+- **API**: EmailJS and JSON document consumption.
+- **Frontend**: React JS (with React Icons and React Router DOM), Tailwind CSS, Vite.
+- **Tools**: Git, GitHub, Responsive Viewer (Opera GX extension), NPM (package management).
+- **Deploy**: GitHub Pages.
+
+## Screenshot
+
+![portfolio_screenshot](/documentation/pictures/screenshot_portfolio.png)
+
+## Live Demo
+
+[👉 Visit the Portfolio Website](https://alejandromtz10.github.io/AlejandroDev/)
