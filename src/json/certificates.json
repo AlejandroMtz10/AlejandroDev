@@ -1,15 +1,19 @@
 [
     {
-        "course":"SQL",
+        "course":"GitHub In Depth",
+        "platform":"Código Facilito",
+        "picture":"certificates/GitHub-CodigoFacilito.jpg"
+    },{
+        "course":"PHP",
         "platform":"SoloLearn",
-        "picture":"certificates/SQL-SoloLearn.jpg"
+        "picture":"certificates/PHP-SoloLearn.jpeg"
     },{
         "course":"Web Development Fundamentals",
         "platform":"SoloLearn",
         "picture":"certificates/Web-Development-Fundamentals-SoloLearn.jpeg"
     },{
-        "course":"PHP",
+        "course":"SQL",
         "platform":"SoloLearn",
-        "picture":"certificates/PHP-SoloLearn.jpeg"
+        "picture":"certificates/SQL-SoloLearn.jpg"
     }
 ]
