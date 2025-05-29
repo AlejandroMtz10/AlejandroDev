@@ -9,6 +9,7 @@ import './AboutMe.css';
 import jobs from "../../json/jobs.json";
 
 function AboutMe() {
+    const url4llCodeSoft = "https://www.facebook.com/profile.php?id=61560866121407";
     return (
         <div className="container mx-auto">
             <div className="flex justify-end">
@@ -37,7 +38,7 @@ function AboutMe() {
                 </h1>
                 <hr />
                 <p className="text-2xl text-cyan-500 py-4">
-                    Throughout my career I have not only worked as an intern in companies but I have also worked on projects for clients who have requested my services as a software developer.
+                    In addition to my experience as a software development intern, I have taken part in collaborative projects for local clients, offering customized software solutions through my own initiative, <a href={url4llCodeSoft}>4LL Code Soft</a> — a collaborative project with friends where we develop desktop, mobile, and web applications, as well as other types of tailored software solutions.
                 </p>
                 <Timeline jobs={jobs} />
             </div>
