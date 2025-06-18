@@ -13,7 +13,12 @@ const Timeline = ({ jobs }) => {
                         key={index}
                         className="vertical-timeline-element--work"
                         date={<h3 className="text-xl font-bold">{job.time}</h3>}
-                        iconStyle={{ background: "#43a4ff", color: "#fff" }}
+                        iconStyle={{ 
+                            background: "#F3F4F6", 
+                            color: "#039aff",
+                            border: "2px solid rgb(55, 204, 246)",
+                            boxShadow: "0 0 0 1px #03bcff60"
+                        }}
                         icon={
                             <div className="w-full h-full flex items-center justify-center">
                                 <img
