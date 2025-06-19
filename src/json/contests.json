@@ -3,22 +3,28 @@
         "contest":"ICPC Texas University.",
         "picture":"contests/icpc-contest.jpeg",
         "place":"Texas University in San Marcos, Texas",
-        "technologies":"Java and C++.",
+        "technologies":"Java, C and C++.",
+        "team":"The Noodles Team",
         "type":"International",
-        "date":"April 1st, 2023"
+        "date":"April 1st, 2023",
+        "certificate":"certificates/2023-ICPC_TxState_Texas-Mexico_TheNoddlesTeam.jpg"
     },{
         "contest":"8° ITS San Pedro Contest.",
         "picture":"contests/8its-sanpedro-contest.jpeg",
         "place":"TecNM San Pedro Campus, Coahuila",
         "technologies":"Java, JavaScript, Python, SQl, C and C++.",
+        "team":"Los bandidos binarios",
         "type":"National",
-        "date":"May 31th, 2023"
+        "date":"May 31th, 2023",
+        "certificate":"certificates/8its_san_pedro_contest.jpg"
     },{
         "contest":"3er ITSA Contest.",
         "picture":"contests/3er-itsa-contest.jpeg",
         "place":"TecNM Ciudad Acuña Campus, Coahuila",
-        "technologies":"Java, Python, SQl, C and C++.",
+        "technologies":"Java, JavaScript, Python, SQl, C and C++.",
+        "team":"Tacuaches Coding",
         "type":"International",
-        "date":"November 10th, 2023"
+        "date":"November 10th, 2023",
+        "certificate":"certificates/"
     }
 ]

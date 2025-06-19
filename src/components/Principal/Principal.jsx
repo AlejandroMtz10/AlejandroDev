@@ -78,10 +78,6 @@ export default function Home() {
                     <SocialContact />
                 </div>
             </div>
-
-            <div>
-                <ProgrammingPages />
-            </div>
         </div>
     );
 }

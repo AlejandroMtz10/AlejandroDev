@@ -3,6 +3,7 @@ import React from "react";
 import Awards from "../Awards";
 import Contests from "../Contests";
 import CertificateList from "../CertificateList";
+import ProgrammingPages from "../ProgrammingPages";
 
 function EducationSection(){
     return(
@@ -33,6 +34,9 @@ function EducationSection(){
                     </a>
                 </p>
                 <Contests />
+                <div>
+                    <ProgrammingPages />
+                </div>
             </div>
             <h2 className="text-4xl font-semibold text-white py-2">
                 Certificates

@@ -20,8 +20,10 @@ const Contests = () => {
                     picture={contProg.picture}
                     place={contProg.place}
                     technologies={contProg.technologies}
+                    team={contProg.team}
                     type={contProg.type}
                     date={contProg.date}
+                    certificate={contProg.certificate}
                 />
             ))}
         </div>
