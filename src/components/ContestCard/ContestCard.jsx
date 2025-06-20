@@ -6,6 +6,7 @@ function ContestCard({ contest, picture, place, technologies, team, type, date, 
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [isCertificateOpen, setIsCertificateOpen] = useState(false);
 
+
     const toggleModal = () => {
         setIsModalOpen(!isModalOpen);
     };
@@ -31,9 +32,9 @@ function ContestCard({ contest, picture, place, technologies, team, type, date, 
                     <p className="text-gray-700 text-base">
                         Team: {team}
                     </p>
-                    <div className="py-2 text-right">
+                    <div className="pt-2 text-right">
                         <p className="text-lg">Date: {date}</p>
-                        <p className="text-lg">Contest: {type}</p>
+                        <p className="text-lg pb-2">Contest: {type}</p>
                         <button
                             className="px-4 py-2 bg-cyan-500 text-white rounded-lg shadow-md hover:bg-cyan-600"
                             onClick={(e) => {
@@ -41,7 +42,7 @@ function ContestCard({ contest, picture, place, technologies, team, type, date, 
                                 setIsCertificateOpen(true);
                             }}
                         >
-                            View Certificate
+                            View certificate
                         </button>
                     </div>
                 </div>
@@ -73,7 +74,7 @@ function ContestCard({ contest, picture, place, technologies, team, type, date, 
                     <img 
                         src={certificate} 
                         alt="Picture of the certificate"
-                        className="max-w-screen-md max-h-screen-md object-contain"
+                        className="max-h-[90vh] max-w-[90vw] object-contain"
                     />
                 </div>
             </div>)}

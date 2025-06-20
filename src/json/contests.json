@@ -7,7 +7,7 @@
         "team":"The Noodles Team",
         "type":"International",
         "date":"April 1st, 2023",
-        "certificate":"certificates/2023-ICPC_TxState_Texas-Mexico_TheNoddlesTeam.jpg"
+        "certificate":"certificates/2023-ICPC_TxState_Texas-Mexico_TheNoddlesTeam.webp"
     },{
         "contest":"8° ITS San Pedro Contest.",
         "picture":"contests/8its-sanpedro-contest.jpeg",
@@ -16,15 +16,15 @@
         "team":"Los bandidos binarios",
         "type":"National",
         "date":"May 31th, 2023",
-        "certificate":"certificates/8its_san_pedro_contest.jpg"
+        "certificate":"certificates/8its_san_pedro_contest.webp"
     },{
-        "contest":"3er ITSA Contest.",
+        "contest":"3° ITSA Contest.",
         "picture":"contests/3er-itsa-contest.jpeg",
         "place":"TecNM Ciudad Acuña Campus, Coahuila",
         "technologies":"Java, JavaScript, Python, SQl, C and C++.",
         "team":"Tacuaches Coding",
         "type":"International",
         "date":"November 10th, 2023",
-        "certificate":"certificates/"
+        "certificate":"certificates/tacuaches_coding.webp"
     }
 ]
