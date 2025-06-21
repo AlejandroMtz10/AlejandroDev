@@ -50,10 +50,10 @@ export default function Home() {
                         I am a computer systems engineer specializing in software architecture and development. I enjoy roles such as QA Tester, software architect, or software developer because they allow me to apply my knowledge of software development throughout the software development life cycle. I am passionate about learning new technologies, solving problems, and creating solutions that meet user needs effectively.
                     </p>
 
-                    {/* Experience */}
+                    {/* My phrase */}
                     <div className="text-end pt-4 my-6">
-                        <p className="text-cyan-400 sm:text-xl xl:text-2xl">
-                            3 years of experience
+                        <p className="text-white sm:text-xl xl:text-2xl">
+                            I don’t just write code — I create tools that make life easier.
                         </p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ export default function Home() {
 
             {/* Information */}
             <div className="pb-6 pt-3">
-                <h2 className="text-white text-center sm:lg xl:text-2xl font-semibold mb-6">
+                <h2 className="text-cyan-500 text-center sm:lg xl:text-2xl font-semibold mb-6">
                     My information
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

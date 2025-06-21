@@ -30,9 +30,12 @@ export default function ProgrammingPages() {
                             A platform for solving algorithmic problems and improving programming skills, used in competitive programming.
                         </p>
                         {/* Button */}
-                        <button onClick={goBeecrowd} className="btnBeecrowd mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
-                            Beecrowd
-                        </button>
+                        <div className="flex justify-end">
+                            <button onClick={goBeecrowd} className="btnBeecrowd mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
+                                Beecrowd
+                            </button>
+                        </div>
+
                     </div>
                 </div>
 
@@ -46,10 +49,12 @@ export default function ProgrammingPages() {
                         <p className="pLeetCode text-lg mt-2">
                             A platform to practice coding challenges and prepare for technical interviews with problems from real-world companies.
                         </p>
-                        {/* Button */}
-                        <button onClick={goLeetcode} className="btnLeetCode mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
-                            LeetCode
-                        </button>
+                        <div className="flex justify-end">
+                            {/* Button */}
+                            <button onClick={goLeetcode} className="btnLeetCode mt-4 inline-block text-white text-lg py-2 px-4 rounded-lg shadow transition duration-300">
+                                LeetCode
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
