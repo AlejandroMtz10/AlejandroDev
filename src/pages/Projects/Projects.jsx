@@ -2,13 +2,16 @@
 import React from "react";
 import ProjectList from "../../components/ProjectList";
 import PersonalProjects from "../../components/PersonalProjects";
+import { LuFolderCode } from "react-icons/lu";
 import './projects.css';
 
 function Projects() {
     return(
         <div className="container mx-auto">
             <div className="flex justify-end">
-                <h1>Projects</h1>
+                <h1 className="flex justify-end content-center gap-2">
+                    <LuFolderCode className="text-5xl"/> Projects
+                </h1>
             </div>
 
             <div className="container">

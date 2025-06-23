@@ -5,6 +5,7 @@ import Timeline from "../../components/Timeline";
 import StackTech from "../../components/StackTech";
 import StackTools from "../../components/StackTools";
 import EducationSection from "../../components/EducationSection";
+import { TbInfoSquare } from "react-icons/tb";
 import './AboutMe.css';
 import jobs from "../../json/jobs.json";
 
@@ -13,8 +14,8 @@ function AboutMe() {
     return (
         <div className="container mx-auto">
             <div className="flex justify-end">
-                <h1 className="pt-2">
-                    About me
+                <h1 className="flex content-center gap-2 pt-2">
+                    <TbInfoSquare className="text-5xl" /> About me
                 </h1>
             </div>
             <MyInfo />

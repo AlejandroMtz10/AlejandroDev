@@ -4,7 +4,7 @@
         "type":"Private",
         "company":"Caterpillar",
         "platform":"Web application",
-        "picture":"projects/Marked-Drawings.png",
+        "picture":"projects/Marked-Drawings.webp",
         "technologies":[
             {"name":"SharePoint", "logo":"toolsLogos/sharepoint.svg"},
             {"name":"Power Apps", "logo":"toolsLogos/power-apps.svg"},
@@ -17,7 +17,7 @@
         "type":"Private",
         "company":"Caterpillar",
         "platform":"Web application",
-        "picture":"projects/Goals.png",
+        "picture":"projects/Goals.webp",
         "technologies":[
             {"name":"SharePoint", "logo":"toolsLogos/sharepoint.svg"},
             {"name":"Power Apps", "logo":"toolsLogos/power-apps.svg"},
@@ -30,7 +30,7 @@
         "type":"Private",
         "company":"Caterpillar",
         "platform":"Web application",
-        "picture":"projects/MSO-Trucks.png",
+        "picture":"projects/MSO-Trucks.webp",
         "technologies":[
             {"name":"SharePoint", "logo":"toolsLogos/sharepoint.svg"},
             {"name":"Power Apps", "logo":"toolsLogos/power-apps.svg"},
@@ -42,7 +42,7 @@
         "type":"Private",
         "company":"Toter",
         "platform":"Desktop application",
-        "picture":"projects/Toter_Detail_Shipment.png",
+        "picture":"projects/Toter_Detail_Shipment.webp",
         "technologies": [
             {"name":"Excel","logo":"toolsLogos/excel.svg"},
             {"name":"MySQL","logo":"toolsLogos/my-sql.svg"},

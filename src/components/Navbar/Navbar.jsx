@@ -6,7 +6,7 @@ import { TbInfoSquare } from "react-icons/tb";
 import { BsFillSendFill } from "react-icons/bs";
 import { LuFolderCode } from "react-icons/lu";
 import { GiHamburgerMenu } from "react-icons/gi";
-import smallLogo from "../../assets/resources/small_logo.png";
+import smallLogo from "../../assets/resources/small_logo.webp";
 import "./Navbar.css";
 
 function Navbar() {
@@ -63,22 +63,22 @@ function Navbar() {
             <ul className="sm:hidden flex flex-col items-center gap-4 pb-4 animate-slide-down">
             <Link to="/" onClick={toggleMenu}>
                 <li className="flex items-center gap-2 text-xl hover:underline hover:text-sky-500">
-                <IoHomeOutline /> Home
+                    <IoHomeOutline /> Home
                 </li>
             </Link>
             <Link to="/AboutMe" onClick={toggleMenu}>
                 <li className="flex items-center gap-2 text-xl hover:underline hover:text-sky-500">
-                <TbInfoSquare /> About Me
+                    <TbInfoSquare /> About Me
                 </li>
             </Link>
             <Link to="/Contact" onClick={toggleMenu}>
                 <li className="flex items-center gap-2 text-xl hover:underline hover:text-sky-500">
-                <BsFillSendFill /> Contact
+                    <BsFillSendFill /> Contact
                 </li>
             </Link>
             <Link to="/Projects" onClick={toggleMenu}>
                 <li className="flex items-center gap-2 text-xl hover:underline hover:text-sky-500">
-                <LuFolderCode /> Projects
+                    <LuFolderCode /> Projects
                 </li>
             </Link>
             </ul>
