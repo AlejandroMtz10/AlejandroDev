@@ -40,7 +40,7 @@ const CertificateCard = ({ course, platform, picture }) => {
                     <img
                         src={picture}
                         alt={course}
-                        className="max-w-screen-lg max-h-screen-md object-contain"
+                        className="max-w-full max-h-full object-contain"
                     />
                 </div>
             </div>

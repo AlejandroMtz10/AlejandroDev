@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
 import './Principal.css';
-import profilePicture from '../../assets/resources/profile_picture.png';
+import profilePicture from '../../assets/resources/profile_picture.webp';
 import EmailCard from "../EmailCard";
 import ResumeCard from "../ResumeCard";
 import SocialContact from "../SocialContact";
-import ProgrammingPages from "../ProgrammingPages";
 
 export default function Home() {
     const [text, setText] = useState("Eng. Alejandro Martinez Rivera");
@@ -62,7 +61,7 @@ export default function Home() {
                     <img
                         src={profilePicture}
                         alt="Profile picture Ing. Alejandro Martinez"
-                        className="w-32 sm:w-48 h-auto rounded-full shadow-lg picture"
+                        className="w-32 h-auto sm:w-32 sm:h-auto rounded-full shadow-lg picture"
                     />
                 </div>
             </div>

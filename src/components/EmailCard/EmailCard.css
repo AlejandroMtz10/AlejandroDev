@@ -3,3 +3,7 @@
 button,p{
     font-family: 'AvenirNextLTPro';
 }
+
+.text-blocked{
+    user-select: none;
+}

@@ -28,7 +28,7 @@ const EmailCard = () => {
 
     {/* Bottom */}
     <div className="flex flex-wrap justify-between items-center mt-6 gap-4">
-      <p className="text-white text-base">
+      <p className="text-white text-base text-blocked">
         {email}
       </p>
       <button
