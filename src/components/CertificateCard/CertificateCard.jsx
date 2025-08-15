@@ -27,8 +27,6 @@ const CertificateCard = ({ course, platform, picture }) => {
             View Certificate
             </button>
         </div>
-
-        {/* Modal to see the picture */}
         {modalOpen && (
             <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
                 <div className="relative">
@@ -37,14 +35,13 @@ const CertificateCard = ({ course, platform, picture }) => {
                     onClick={closeModal}>
                         &times;
                     </button>
-                    <img
+                    <img 
                         src={picture}
                         alt={course}
-                        className="max-w-full max-h-full object-contain"
+                        className="max-h-[90vh] max-w-[90vw] object-contain"
                     />
                 </div>
-            </div>
-        )}
+            </div>)}
         </div>
     );
 };
