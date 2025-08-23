@@ -1,24 +1,5 @@
 [
-    {
-        "project":"Acaaz",
-        "type":"Web Application",
-        "stack": [
-            {"tech":"PHP","icon":"technologiesLogos/php.svg"},
-            {"tech":"JavaScript","icon":"technologiesLogos/java-script.svg"},
-            {"tech":"JQuery","icon":"technologiesLogos/jquery.svg"},
-            {"tech":"MySQL","icon":"toolsLogos/my-sql.svg"},
-            {"tech":"HTML","icon":"technologiesLogos/html.svg"},
-            {"tech":"CSS","icon":"technologiesLogos/css.svg"},
-            {"tech":"Bootstrap","icon":"technologiesLogos/bootstrap.svg"},
-            {"tech":"Git","icon":"toolsLogos/git.svg"},
-            {"tech":"GitHub","icon":"toolsLogos/github.svg"}
-        ],
-        "picture":"projects/Acaaz.webp",
-        "github":"https://github.com/AlejandroMtz10/punto_venta_acaaz",
-        "client":"Frutería el Gordo Pérez",
-        "description":"Point of Sale (POS) system with inventory control for a small local store that sells fruits, vegetables, groceries, and other products. It helps the owner manage the business more efficiently, provides better service to customers, and offers employees an improved work experience. The system includes tools such as product inventory management, cash register handling, sales and invoice records, and a chart that displays sales revenue over the last seven days and other functions.",
-        "date":"May 05th, 2025"
-    },{
+{
         "project":"Servicios y suministros Titan",
         "type":"Web Site and Web Application",
         "stack": [
