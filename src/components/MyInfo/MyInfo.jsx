@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import myPicture from '../../assets/resources/alejandro.png';
+import myPicture from '../../assets/resources/alejandro.jpeg';
 import BtnResume from '../BtnResumeEng';
 import './MyInfo.css';
 
