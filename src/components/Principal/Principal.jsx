@@ -61,7 +61,7 @@ export default function Home() {
                     <img
                         src={profilePicture}
                         alt="Profile picture Ing. Alejandro Martinez"
-                        className="w-32 h-auto sm:w-32 sm:h-auto rounded-full shadow-lg picture"
+                        className="w-34 h-auto sm:w-34 sm:h-auto rounded-full shadow-lg picture"
                     />
                 </div>
             </div>
