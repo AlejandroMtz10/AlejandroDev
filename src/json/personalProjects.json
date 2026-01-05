@@ -1,5 +1,24 @@
 [
-{
+    {
+        "project":"Face-Frames",
+        "type":"Web application",
+        "stack": [
+            {"tech":"HTML","icon":"technologiesLogos/html.svg"},
+            {"tech":"CSS","icon":"technologiesLogos/css.svg"},
+            {"tech":"Tailwind CSS","icon":"technologiesLogos/tailwind-css.svg"},
+            {"tech":"JavaScript","icon":"technologiesLogos/java-script.svg"},
+            {"tech":"React","icon":"technologiesLogos/react.svg"},
+            {"tech":"Vite","icon":"technologiesLogos/vite.svg"},
+            {"tech":"JSON","icon":"technologiesLogos/json.svg"},
+            {"tech":"Git","icon":"toolsLogos/git.svg"},
+            {"tech":"GitHub","icon":"toolsLogos/github.svg"}
+        ],
+        "picture":"projects/Face-Frames.webp",
+        "github":"https://github.com/AlejandroMtz10/Face-Frames",
+        "client":"Face-Frames",
+        "description":"Face Shape-Based Eyewear Recommender. This application leverages facial recognition and landmark processing to calculate face proportions in real-time, providing personalized eyewear suggestions based on the user's morphology. The application uses pre-trained artificial intelligence models related to computer vision, artificial intelligence, and biometric models from the MediaPipe library (Google), which, together with face shape calculations, allow the type of face of the person to be determined.",
+        "date":"Dec 23th, 2024"
+    },{
         "project":"Servicios y suministros Titan",
         "type":"Web Site and Web Application",
         "stack": [
