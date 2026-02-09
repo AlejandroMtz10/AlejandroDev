@@ -15,7 +15,7 @@
         ],
         "picture":"projects/Face-Frames.webp",
         "github":"https://github.com/AlejandroMtz10/Face-Frames",
-        "client":"Face-Frames",
+        "client":"Open to people",
         "description":"Face Shape-Based Eyewear Recommender. This application leverages facial recognition and landmark processing to calculate face proportions in real-time, providing personalized eyewear suggestions based on the user's morphology. The application uses pre-trained artificial intelligence models related to computer vision, artificial intelligence, and biometric models from the MediaPipe library (Google), which, together with face shape calculations, allow the type of face of the person to be determined.",
         "date":"Dec 23th, 2025"
     },{
