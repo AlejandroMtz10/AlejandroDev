@@ -1,5 +1,9 @@
 [
     {
+        "course":"Software Architecture",
+        "platform":"SimpliLearn",
+        "picture":"certificates/SoftwareArchitecture.webp"
+    },{
         "course":"GitHub In Depth",
         "platform":"Código Facilito",
         "picture":"certificates/GitHub-CodigoFacilito.webp"
