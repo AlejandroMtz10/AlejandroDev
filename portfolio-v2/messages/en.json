@@ -1,0 +1,30 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "Controls": {
+    "themeLight": "Light mode",
+    "themeDark": "Dark mode",
+    "themeChanged": "Theme updated",
+    "languageChanged": "Language switched to English"
+  },
+  "Home": {
+    "eyebrow": "Alejandro Martinez",
+    "status": "Open to remote roles",
+    "titleMain": "Software Engineer",
+    "titleAccent": "+ full-stack",
+    "descriptionPrefix": "Designing and developing reliable and scalable ",
+    "descriptionHighlight": "software",
+    "descriptionSuffix": " for applications and systems.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Contact",
+    "ctaResume": "Resume",
+    "terminalLine1": "$ java --spring-boot",
+    "terminalLine2": "$ next dev --turbopack",
+    "terminalLine3": "$ git push origin main",
+    "terminalLine4": "$ deploy_"
+  }
+}

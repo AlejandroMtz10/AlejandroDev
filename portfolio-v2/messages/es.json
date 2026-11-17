@@ -1,0 +1,30 @@
+{
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "Controls": {
+    "themeLight": "Modo claro",
+    "themeDark": "Modo oscuro",
+    "themeChanged": "Tema actualizado",
+    "languageChanged": "Idioma cambiado a Español"
+  },
+  "Home": {
+    "eyebrow": "Alejandro Martinez",
+    "status": "Disponible para trabajo remoto",
+    "titleMain": "Ingeniero de software",
+    "titleAccent": "+ full-stack",
+    "descriptionPrefix": "Diseño y desarrollo de",
+    "descriptionHighlight": " software ",
+    "descriptionSuffix": "confiable y escalable para aplicaciones y sistemas.",
+    "ctaProjects": "Ver Proyectos",
+    "ctaContact": "Contacto",
+    "ctaResume": "CV",
+    "terminalLine1": "$ java --spring-boot",
+    "terminalLine2": "$ next dev --turbopack",
+    "terminalLine3": "$ git push origin main",
+    "terminalLine4": "$ deploy_"
+  }
+}

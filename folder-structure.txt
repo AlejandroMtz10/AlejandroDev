@@ -1,0 +1,26 @@
+portfolio-v2/
+├── messages/
+│   ├── en.json
+│   └── es.json
+└── src/
+    ├── i18n/
+    │   ├── routing.ts
+    │   └── request.ts
+    ├── middleware.ts
+    ├── components/
+    │   └── UI/
+    │       ├── Sidebar.tsx
+    │       ├── ThemeToggle.tsx
+    │       └── LanguageSwitcher.tsx
+    └── app/
+        └── [locale]/
+            ├── layout.tsx
+            ├── page.tsx          # Redirige a /home o renderiza Home directamente
+            ├── home/
+            │   └── page.tsx
+            ├── about-me/
+            │   └── page.tsx
+            ├── projects/
+            │   └── page.tsx
+            └── contact/
+                └── page.tsx
