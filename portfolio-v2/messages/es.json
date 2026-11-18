@@ -19,12 +19,19 @@
     "descriptionPrefix": "Diseño y desarrollo de",
     "descriptionHighlight": " software ",
     "descriptionSuffix": "confiable y escalable para aplicaciones y sistemas.",
-    "ctaProjects": "Ver Proyectos",
-    "ctaContact": "Contacto",
     "ctaResume": "CV",
-    "terminalLine1": "$ java --spring-boot",
-    "terminalLine2": "$ next dev --turbopack",
+    "copyEmail": "Copiar correo",
+    "emailCopied": "Correo copiado al portapapeles",
+    "terminalLine1": "$ mvn spring-boot:run",
+    "terminalLine2": "$ pnpm next build",
     "terminalLine3": "$ git push origin main",
-    "terminalLine4": "$ deploy_"
+    "terminalLine4": "$ deploy_",
+    "capabilities": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Bases de Datos",
+      "desktop": "Apps de Escritorio",
+      "lowCode": "Low-Code y BI"
+    }
   }
 }

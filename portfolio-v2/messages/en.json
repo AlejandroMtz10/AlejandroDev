@@ -19,12 +19,19 @@
     "descriptionPrefix": "Designing and developing reliable and scalable ",
     "descriptionHighlight": "software",
     "descriptionSuffix": " for applications and systems.",
-    "ctaProjects": "View Projects",
-    "ctaContact": "Contact",
     "ctaResume": "Resume",
-    "terminalLine1": "$ java --spring-boot",
-    "terminalLine2": "$ next dev --turbopack",
+    "copyEmail": "Copy email",
+    "emailCopied": "Email copied to clipboard",
+    "terminalLine1": "$ mvn spring-boot:run",
+    "terminalLine2": "$ pnpm next build",
     "terminalLine3": "$ git push origin main",
-    "terminalLine4": "$ deploy_"
+    "terminalLine4": "$ deploy_",
+    "capabilities": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "desktop": "Desktop Apps",
+      "lowCode": "Low-Code & BI"
+    }
   }
 }

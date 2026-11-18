@@ -1,16 +1,15 @@
-import Link from "next/link";
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Icon } from "@iconify/react";
+import { CopyEmailButton } from "@/components/UI/CopyEmailButton";
 
-const CORE_STACK = [
-  { name: "Laravel", icon: "devicon:laravel" },
-  { name: "Spring Boot", icon: "devicon:spring" },
-  { name: "React", icon: "devicon:react" },
-  { name: "Next.js", icon: "simple-icons:nextdotjs" },
-  { name: "PostgreSQL", icon: "devicon:postgresql" },
-  { name: "MySQL", icon: "devicon:mysql" },
-];
+const CAPABILITIES = [
+  { key: "frontend", icon: "lucide:layout-template" },
+  { key: "backend", icon: "lucide:server" },
+  { key: "databases", icon: "lucide:database" },
+  { key: "desktop", icon: "lucide:monitor" },
+  { key: "lowCode", icon: "lucide:workflow" },
+] as const;
 
 export default async function HomePage({
   params,
@@ -83,34 +82,21 @@ export default async function HomePage({
 
           {/* Primary Actions */}
           <div className="flex flex-wrap items-center gap-3 pt-2">
-            <Link
-              href={`/${locale}/projects`}
-              className="group inline-flex items-center gap-2 rounded-lg bg-[#0C82FF] px-5 py-2.5 text-sm font-medium text-white shadow-sm shadow-[#0C82FF]/25 transition-all hover:bg-[#0C82FF]/90"
-            >
-              <span>{t("ctaProjects")}</span>
-              <Icon
-                icon="lucide:arrow-up-right"
-                className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-              />
-            </Link>
-
-            <Link
-              href={`/${locale}/contact`}
-              className="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white/60 px-4 py-2.5 text-sm font-medium text-slate-700 backdrop-blur-xs transition-colors hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-200 dark:hover:bg-slate-800"
-            >
-              <Icon icon="lucide:mail" className="h-4 w-4 text-[#0C82FF]" />
-              <span>{t("ctaContact")}</span>
-            </Link>
-
             <a
-              href={locale === "es" ? "/cv-es.pdf" : "/cv-en.pdf"}
+              href={
+                locale === "es"
+                  ? "/docs/AlejandroMartinezRivera-CV.pdf"
+                  : "/docs/AlejandroMartinezRivera-Resume.pdf"
+              }
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-lg px-3.5 py-2.5 text-sm font-medium text-slate-600 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800/60 dark:hover:text-white"
+              className="group inline-flex items-center gap-2 rounded-lg bg-[#0C82FF] px-5 py-2.5 text-sm font-medium text-white shadow-sm shadow-[#0C82FF]/25 transition-all hover:-translate-y-0.5 hover:bg-[#0C82FF]/90"
             >
-              <Icon icon="lucide:file-text" className="h-4 w-4 text-[#0C82FF]" />
+              <Icon icon="lucide:file-text" className="h-4 w-4" />
               <span>{t("ctaResume")}</span>
             </a>
+
+            <CopyEmailButton email="alex10mtz_rivera@outlook.com" />
           </div>
         </div>
 
@@ -131,12 +117,12 @@ export default async function HomePage({
         </div>
       </div>
 
-      {/* Bottom Bar: Social Links + Core Stack Strip */}
-      <div className="relative z-10 flex flex-col justify-between gap-5 border-t border-slate-200/70 pt-6 dark:border-slate-800/70 md:flex-row md:items-center">
+      {/* Bottom Bar: Social Links + Core Capabilities Strip */}
+      <div className="relative z-10 flex flex-col justify-between gap-5 border-t border-slate-200/70 pt-6 dark:border-slate-800/70 xl:flex-row xl:items-center">
         {/* Social Links */}
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/AlejandroMartinezRivera"
+            href="https://github.com/AlejandroMtz10"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-[#0C82FF] dark:text-slate-400 dark:hover:text-[#0C82FF]"
@@ -148,7 +134,7 @@ export default async function HomePage({
           <span className="text-slate-300 dark:text-slate-700">•</span>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/alejandro-martínez-rivera-a35541248"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-600 transition-colors hover:text-[#0C82FF] dark:text-slate-400 dark:hover:text-[#0C82FF]"
@@ -158,16 +144,15 @@ export default async function HomePage({
           </a>
         </div>
 
-        {/* Minimalist Tech Stack Pills */}
+        {/* Core Capabilities Pills */}
         <div className="flex flex-wrap items-center gap-2">
-          {CORE_STACK.map((tech) => (
+          {CAPABILITIES.map((item) => (
             <span
-              key={tech.name}
-              title={tech.name}
+              key={item.key}
               className="inline-flex items-center gap-1.5 rounded-md border border-slate-200/80 bg-slate-50/80 px-2.5 py-1 text-xs font-medium text-slate-600 transition-colors hover:border-[#0C82FF]/40 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-900/60 dark:text-slate-400 dark:hover:text-white"
             >
-              <Icon icon={tech.icon} className="h-3.5 w-3.5" />
-              <span>{tech.name}</span>
+              <Icon icon={item.icon} className="h-3.5 w-3.5 text-[#0C82FF]" />
+              <span>{t(`capabilities.${item.key}`)}</span>
             </span>
           ))}
         </div>
