@@ -8,7 +8,15 @@ import { Icon } from "@iconify/react";
 import { ThemeToggle } from "@/components/UI/ThemeToggle";
 import { LanguageSwitcher } from "@/components/UI/LanguageSwitcher";
 
-export function Sidebar() {
+interface SidebarProps {
+  collapsed?: boolean;
+  onToggleCollapse?: () => void;
+}
+
+export function Sidebar({
+  collapsed = false,
+  onToggleCollapse,
+}: SidebarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
   const locale = useLocale();
@@ -24,21 +32,52 @@ export function Sidebar() {
   const isActive = (href: string) =>
     pathname === href || pathname.startsWith(`${href}/`);
 
-  const sidebarContent = (
-    <div className="flex h-full flex-col justify-between border-r border-slate-200 bg-white px-4 py-6 dark:border-slate-800 dark:bg-slate-950">
+  const renderSidebarContent = (isCollapsed: boolean) => (
+    <div
+      className={`flex h-full flex-col justify-between border-r border-slate-200 bg-white py-6 transition-all duration-300 dark:border-slate-800 dark:bg-slate-950 ${
+        isCollapsed ? "px-3" : "px-4"
+      }`}
+    >
       <div>
-        <div className="mb-8 flex items-center justify-between px-2">
+        {/* Brand + Collapse / Close Controls */}
+        <div
+          className={`mb-8 flex items-center ${
+            isCollapsed ? "flex-col gap-3" : "justify-between px-2"
+          }`}
+        >
           <Link
             href={`/${locale}/home`}
             onClick={() => setMobileOpen(false)}
+            title="aledev"
             className="flex items-center gap-2.5 text-lg font-bold tracking-tight text-slate-900 dark:text-white"
           >
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#0C82FF] text-white shadow-sm">
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#0C82FF] text-white shadow-sm">
               <Icon icon="lucide:terminal" className="h-5 w-5" />
             </div>
-            <span>aledev</span>
+            {!isCollapsed && <span>aledev</span>}
           </Link>
 
+          {/* Desktop Collapse Button */}
+          {onToggleCollapse && (
+            <button
+              type="button"
+              onClick={onToggleCollapse}
+              className="hidden cursor-pointer rounded-lg p-1.5 text-slate-500 transition-colors hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white lg:inline-flex"
+              aria-label={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+              title={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+            >
+              <Icon
+                icon={
+                  isCollapsed
+                    ? "lucide:panel-left-open"
+                    : "lucide:panel-left-close"
+                }
+                className="h-4 w-4"
+              />
+            </button>
+          )}
+
+          {/* Mobile Close Button */}
           <button
             type="button"
             onClick={() => setMobileOpen(false)}
@@ -49,6 +88,7 @@ export function Sidebar() {
           </button>
         </div>
 
+        {/* Navigation Links */}
         <nav className="space-y-1.5" aria-label="Main Navigation">
           {navItems.map(({ key, href, icon }) => {
             const active = isActive(href);
@@ -57,7 +97,10 @@ export function Sidebar() {
                 key={key}
                 href={href}
                 onClick={() => setMobileOpen(false)}
-                className={`flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-all ${
+                title={isCollapsed ? t(key) : undefined}
+                className={`flex items-center rounded-lg py-2.5 text-sm font-medium transition-all ${
+                  isCollapsed ? "justify-center px-0" : "gap-3 px-3"
+                } ${
                   active
                     ? "bg-[#0C82FF] text-white shadow-sm shadow-[#0C82FF]/25"
                     : "text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-900 dark:hover:text-white"
@@ -65,26 +108,28 @@ export function Sidebar() {
               >
                 <Icon
                   icon={icon}
-                  className={`h-4 w-4 ${
+                  className={`h-4 w-4 shrink-0 ${
                     active ? "text-white" : "text-slate-400 dark:text-slate-500"
                   }`}
                 />
-                <span>{t(key)}</span>
+                {!isCollapsed && <span className="truncate">{t(key)}</span>}
               </Link>
             );
           })}
         </nav>
       </div>
 
+      {/* Bottom Controls */}
       <div className="space-y-1.5 border-t border-slate-200 pt-4 dark:border-slate-800">
-        <ThemeToggle />
-        <LanguageSwitcher />
+        <ThemeToggle collapsed={isCollapsed} />
+        <LanguageSwitcher collapsed={isCollapsed} />
       </div>
     </div>
   );
 
   return (
     <>
+      {/* Mobile Header */}
       <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-slate-200 bg-white/80 px-4 backdrop-blur-md dark:border-slate-800 dark:bg-slate-950/80 lg:hidden">
         <Link
           href={`/${locale}/home`}
@@ -106,6 +151,7 @@ export function Sidebar() {
         </button>
       </header>
 
+      {/* Mobile Drawer (Always expanded on mobile) */}
       {mobileOpen && (
         <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true">
           <div
@@ -113,13 +159,18 @@ export function Sidebar() {
             onClick={() => setMobileOpen(false)}
           />
           <aside className="fixed inset-y-0 left-0 z-50 w-72 max-w-[80vw]">
-            {sidebarContent}
+            {renderSidebarContent(false)}
           </aside>
         </div>
       )}
 
-      <aside className="hidden lg:fixed lg:inset-y-0 lg:left-0 lg:z-30 lg:block lg:w-64">
-        {sidebarContent}
+      {/* Desktop Sidebar (Collapsible) */}
+      <aside
+        className={`hidden transition-all duration-300 ease-in-out lg:fixed lg:inset-y-0 lg:left-0 lg:z-30 lg:block ${
+          collapsed ? "lg:w-20" : "lg:w-64"
+        }`}
+      >
+        {renderSidebarContent(collapsed)}
       </aside>
     </>
   );
