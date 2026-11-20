@@ -33,5 +33,12 @@
       "desktop": "Apps de Escritorio",
       "lowCode": "Low-Code y BI"
     }
+  },"AboutMe": {
+    "eyebrow": "SOBRE MÍ",
+    "title": "Detrás del Código",
+    "paragraph1": "¡Hola! Soy Alejandro Martínez Rivera, aunque mis amigos me dicen Alex o Ale. Soy Ingeniero de Software especializado en arquitectura y diseño de software, dedicado a crear soluciones innovadoras y a la medida que resuelven necesidades reales. Mi enfoque combina un diseño cuidadoso con una comprensión profunda de los requerimientos del usuario para entregar software de alto impacto.",
+    "paragraph2": "Disfruto resolver retos y transformar ideas en sistemas funcionales y eficientes que marquen la diferencia. Ya sea desarrollando herramientas personalizadas para empresas o colaborando en proyectos únicos, me impulsa el objetivo de hacer que la tecnología trabaje para las personas.",
+    "closing": "¡Construyamos algo grande juntos!",
+    "ctaResume": "CV"
   }
 }

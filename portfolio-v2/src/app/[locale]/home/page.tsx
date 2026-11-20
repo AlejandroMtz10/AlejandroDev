@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Icon } from "@iconify/react";
 import { CopyEmailButton } from "@/components/UI/CopyEmailButton";
+import { ResumeButton } from "@/components/UI/BtnResume";
 
 const CAPABILITIES = [
   { key: "frontend", icon: "lucide:layout-template" },
@@ -82,19 +83,7 @@ export default async function HomePage({
 
           {/* Primary Actions */}
           <div className="flex flex-wrap items-center gap-3 pt-2">
-            <a
-              href={
-                locale === "es"
-                  ? "/docs/AlejandroMartinezRivera-CV.pdf"
-                  : "/docs/AlejandroMartinezRivera-Resume.pdf"
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-lg bg-[#0C82FF] px-5 py-2.5 text-sm font-medium text-white shadow-sm shadow-[#0C82FF]/25 transition-all hover:-translate-y-0.5 hover:bg-[#0C82FF]/90"
-            >
-              <Icon icon="lucide:file-text" className="h-4 w-4" />
-              <span>{t("ctaResume")}</span>
-            </a>
+            <ResumeButton locale={locale} label={t("ctaResume")} />
 
             <CopyEmailButton email="alex10mtz_rivera@outlook.com" />
           </div>
