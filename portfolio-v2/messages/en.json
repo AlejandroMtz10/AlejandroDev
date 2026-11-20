@@ -33,5 +33,12 @@
       "desktop": "Desktop Apps",
       "lowCode": "Low-Code & BI"
     }
+  },"AboutMe": {
+    "eyebrow": "ABOUT ME",
+    "title": "Behind the Code",
+    "paragraph1": "Hi! I am Alejandro Martinez Rivera, though my friends call me Alex or Ale. I am a Software Engineer specializing in software architecture and design, dedicated to creating innovative and tailored solutions that address real-world needs. My approach combines thoughtful design with a deep understanding of user requirements to deliver impactful software.",
+    "paragraph2": "I thrive on solving challenges and turning ideas into functional, efficient systems that make a difference. Whether it is crafting custom tools for businesses or collaborating on unique projects, I am driven by the goal of making technology work for people.",
+    "closing": "Let’s build something great together!",
+    "ctaResume": "Resume"
   }
 }
