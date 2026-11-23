@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ResumeButton } from "@/components/UI/BtnResume";
+import { SkillsSection } from "@/components/AboutMe/SkillsSection";
 
 export default async function AboutMePage({
   params,
@@ -65,7 +66,7 @@ export default async function AboutMePage({
           </div>
         </div>
       </section>
-
+      <SkillsSection />
       {/* Next sections (Technologies, Tools, Experience, Education, etc.) will go here */}
     </div>
   );

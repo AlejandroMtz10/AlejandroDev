@@ -40,5 +40,25 @@
     "paragraph2": "I thrive on solving challenges and turning ideas into functional, efficient systems that make a difference. Whether it is crafting custom tools for businesses or collaborating on unique projects, I am driven by the goal of making technology work for people.",
     "closing": "Let’s build something great together!",
     "ctaResume": "Resume"
+  },"Skills": {
+    "techTitle": "Technologies",
+    "techSubtitle": "Languages, frameworks, and core web standards I build with.",
+    "toolsTitle": "Tools & Platforms",
+    "toolsSubtitle": "Databases, version control, architecture modeling, and low-code ecosystems.",
+    "tools": {
+      "git": "Version control system for tracking code changes.",
+      "github": "Platform for hosting and collaborating on Git repositories.",
+      "mariadb": "Open-source relational database management system.",
+      "mysql": "Popular open-source relational database management system.",
+      "sqlserver": "Enterprise relational database management system by Microsoft.",
+      "sharepoint": "Microsoft platform for data lists, document management, and collaboration.",
+      "powerapps": "Low-code platform for building custom business applications.",
+      "powerautomate": "Workflow automation engine across apps and enterprise services.",
+      "powerbi": "Business analytics suite for interactive data visualization and insights.",
+      "postman": "API client for testing, documenting, and managing HTTP requests.",
+      "uml": "Unified Modeling Language for designing and documenting software architectures.",
+      "drawio": "Diagramming tool for system architecture and flowcharts.",
+      "xampp": "Local cross-platform web server stack for PHP and MariaDB development."
+    }
   }
 }
