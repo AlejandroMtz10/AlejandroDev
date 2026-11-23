@@ -40,5 +40,25 @@
     "paragraph2": "Disfruto resolver retos y transformar ideas en sistemas funcionales y eficientes que marquen la diferencia. Ya sea desarrollando herramientas personalizadas para empresas o colaborando en proyectos únicos, me impulsa el objetivo de hacer que la tecnología trabaje para las personas.",
     "closing": "¡Construyamos algo grande juntos!",
     "ctaResume": "CV"
+  },"Skills": {
+    "techTitle": "Tecnologías",
+    "techSubtitle": "Lenguajes, frameworks y estándares web con los que desarrollo.",
+    "toolsTitle": "Herramientas y Plataformas",
+    "toolsSubtitle": "Bases de datos, control de versiones, modelado de arquitectura y ecosistemas low-code.",
+    "tools": {
+      "git": "Sistema de control de versiones para el seguimiento de cambios en el código.",
+      "github": "Plataforma para alojar y colaborar en repositorios Git.",
+      "mariadb": "Sistema de gestión de bases de datos relacionales de código abierto.",
+      "mysql": "Popular sistema de gestión de bases de datos relacionales de código abierto.",
+      "sqlserver": "Sistema empresarial de gestión de bases de datos relacionales de Microsoft.",
+      "sharepoint": "Herramienta de Microsoft para gestión de datos mediante listas y colaboración.",
+      "powerapps": "Plataforma low-code para crear aplicaciones empresariales personalizadas.",
+      "powerautomate": "Herramienta para crear flujos de trabajo automatizados entre aplicaciones.",
+      "powerbi": "Herramienta de análisis empresarial para visualización de datos e indicadores.",
+      "postman": "Herramienta para probar APIs y gestionar peticiones HTTP.",
+      "uml": "Lenguaje Unificado de Modelado para diseñar arquitecturas de software.",
+      "drawio": "Herramienta para crear diagramas de arquitectura y flujos de procesos.",
+      "xampp": "Entorno local multiplataforma para servidores web con PHP y MariaDB."
+    }
   }
 }
