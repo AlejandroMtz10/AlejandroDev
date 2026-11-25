@@ -48,6 +48,9 @@
     "tools": {
       "git": "Sistema de control de versiones para el seguimiento de cambios en el código.",
       "github": "Plataforma para alojar y colaborar en repositorios Git.",
+      "sqlite": "Sistema de gestión de bases de datos relacionales ligero y basado en archivos.",
+      "postgresql": "Sistema de gestión de bases de datos relacionales de código abierto.",
+      "superbase": "Plataforma de base de datos en la nube de código abierto.",
       "mariadb": "Sistema de gestión de bases de datos relacionales de código abierto.",
       "mysql": "Popular sistema de gestión de bases de datos relacionales de código abierto.",
       "sqlserver": "Sistema empresarial de gestión de bases de datos relacionales de Microsoft.",
@@ -59,6 +62,29 @@
       "uml": "Lenguaje Unificado de Modelado para diseñar arquitecturas de software.",
       "drawio": "Herramienta para crear diagramas de arquitectura y flujos de procesos.",
       "xampp": "Entorno local multiplataforma para servidores web con PHP y MariaDB."
+    }
+  },"Experience": {
+    "title": "Experiencia",
+    "description": "Mi trayectoria combina el desarrollo de software en entornos corporativos con la creación independiente de productos. Junto con mis prácticas construyendo herramientas internas y flujos automatizados, cofundé 4LL Code Soft, un estudio colaborativo donde diseñamos y entregamos soluciones web, de escritorio y móviles a la medida.",
+    "items": {
+      "4ll": {
+        "role": "Ingeniero de Software y Cofundador",
+        "company": "ALL Code Soft",
+        "period": "Mayo 2024 – Actualidad",
+        "summary": "Diseño y desarrollo de aplicaciones web, de escritorio y móviles de extremo a extremo para negocios locales, transformando necesidades operativas en software escalable."
+      },
+      "caterpillar": {
+        "role": "Practicante de Desarrollo de Software",
+        "company": "Caterpillar Inc.",
+        "period": "Octubre 2023 – Abril 2024",
+        "summary": "Desarrollo de aplicaciones internas, tableros en Power BI y flujos automatizados con Power Apps y Power Automate, reduciendo en ~40% el tiempo de reportes manuales."
+      },
+      "toter": {
+        "role": "Practicante de Desarrollo de Software",
+        "company": "Toter LLC",
+        "period": "Diciembre 2022 – Septiembre 2023",
+        "summary": "Desarrollo e implementación de un sistema de escritorio en Visual Basic y MySQL para el control de envíos entre plantas, reduciendo la pérdida de piezas en un 30%."
+      }
     }
   }
 }

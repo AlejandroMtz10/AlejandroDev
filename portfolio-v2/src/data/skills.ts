@@ -20,10 +20,12 @@ export const TECHNOLOGIES: TechnologyItem[] = [
   { name: "Bootstrap", icon: "devicon:bootstrap" },
   { name: "Tailwind CSS", icon: "devicon:tailwindcss" },
   { name: "JavaScript", icon: "devicon:javascript" },
-  { name: "JSON", icon: "devicon:json" },
+  { name: "TypeScript", icon: "devicon:typescript" },
   { name: "React", icon: "devicon:react" },
   { name: "Vite", icon: "devicon:vitejs" },
+  { name: "Next.js", icon: "devicon:nextjs" },
   { name: "SQL", icon: "devicon:azuresqldatabase" },
+  { name: "JSON", icon: "devicon:json" }
 ];
 
 export const TOOLS: ToolItem[] = [
@@ -34,6 +36,9 @@ export const TOOLS: ToolItem[] = [
     icon: "simple-icons:github",
     colorClass: "text-slate-900 dark:text-white",
   },
+  { key: "sqlite", name: "SQLite", icon: "devicon:sqlite" },
+  { key: "postgresql", name: "PostgreSQL", icon: "devicon:postgresql" },
+  { key: "superbase", name: "Supabase", icon: "logos:supabase-icon" },
   { key: "mariadb", name: "MariaDB", icon: "devicon:mariadb" },
   { key: "mysql", name: "MySQL", icon: "devicon:mysql" },
   {

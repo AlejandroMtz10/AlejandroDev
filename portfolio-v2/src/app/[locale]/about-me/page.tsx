@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ResumeButton } from "@/components/UI/BtnResume";
 import { SkillsSection } from "@/components/AboutMe/SkillsSection";
+import { ExperienceSection } from "@/components/AboutMe/ExperienceSection";
 
 export default async function AboutMePage({
   params,
@@ -28,7 +29,7 @@ export default async function AboutMePage({
 
         {/* Header */}
         <div className="relative z-10 mb-8 space-y-2">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#0C82FF]">
+          <p className="text-lg text-right font-semibold uppercase tracking-[0.3em] text-[#0C82FF]">
             {t("eyebrow")}
           </p>
           <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-white sm:text-4xl">
@@ -67,6 +68,7 @@ export default async function AboutMePage({
         </div>
       </section>
       <SkillsSection />
+      <ExperienceSection />
       {/* Next sections (Technologies, Tools, Experience, Education, etc.) will go here */}
     </div>
   );
