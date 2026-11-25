@@ -65,7 +65,7 @@
     }
   },"Experience": {
     "title": "Experience",
-    "description": "My background combines corporate software engineering with independent product development. Alongside my internships building internal enterprise tools and automation workflows, I co-founded 4LL Code Soft—a collaborative studio where we design and deliver custom web, desktop, and mobile solutions tailored to real business operations.",
+    "description": "My background combines corporate software engineering with independent product development. Alongside my internships building internal enterprise tools and automation workflows, I co-founded ALL Code Soft—a collaborative studio where we design and deliver custom web, desktop, and mobile solutions tailored to real business operations.",
     "items": {
       "4ll": {
         "role": "Software Engineer & Co-Founder",
@@ -84,6 +84,116 @@
         "company": "Toter LLC",
         "period": "December 2022 – September 2023",
         "summary": "Developed and deployed a Visual Basic & MySQL desktop system to manage inter-plant cargo shipments, reducing part loss by 30%."
+      }
+    }
+  },"Education": {
+    "title": "Education & Academic Milestones",
+    "description": "I earned my Bachelor's Degree in Computer Systems Engineering at Tecnológico Nacional de México (Campus Ciudad Acuña), specializing in software architecture and design. Throughout my studies, I competed in national and international programming contests, developed real-world software for companies like Toter and Caterpillar, and was recognized three times among the top students in the Systems Academy—graduating as the #1 student of the 2019–2024 generation.",
+    "awardsTitle": "Honors & Academic Recognitions",
+    "viewImage": "View photo",
+    "closeModal": "Close preview",
+    "awards": {
+      "award2021": {
+        "title": "Top Academic Ranking (6th Place)",
+        "description": "Ranked 6th overall across all semesters in the Systems Academy top 10 honor roll during my 4th semester.",
+        "year": "2021"
+      },
+      "award2022": {
+        "title": "Best Grade Point Average (1st Place)",
+        "description": "Achieved 1st place in the Systems Academy top 10 ranking among all semesters during my 7th semester.",
+        "year": "2022"
+      },
+      "award2023": {
+        "title": "Best Grade Point Average (1st Place)",
+        "description": "Earned 1st place once again in the Systems Academy overall ranking during my 8th semester.",
+        "year": "2023"
+      },
+      "award2024": {
+        "title": "Top Graduate of the Generation",
+        "description": "Graduated with honors as the highest-ranked student in the Computer Systems Engineering program (2019–2024 generation).",
+        "year": "2024"
+      },
+      "degree2025": {
+        "title": "B.Sc. in Computer Systems Engineering",
+        "description": "Officially awarded my Computer Systems Engineering degree and federal professional license (Cédula Profesional).",
+        "year": "2025"
+      }
+    },"contests": {
+      "title": "Programming Contests",
+      "descriptionPrefix": "I have participated in several competitive programming contests, collaborating in teams to solve algorithmic and logic challenges across multiple languages. You can explore my solutions on my",
+      "repoLinkText": "GitHub repository",
+      "labels": {
+        "place": "Place",
+        "technologies": "Languages",
+        "team": "Team",
+        "date": "Date",
+        "viewCertificate": "View certificate"
+      },
+      "items": {
+        "icpc": {
+          "title": "ICPC Texas State University",
+          "place": "Texas State University, San Marcos, Texas",
+          "technologies": "Java, C, C++",
+          "team": "The Noodles Team",
+          "type": "International",
+          "date": "April 1, 2023"
+        },
+        "sanpedro": {
+          "title": "8th ITS San Pedro Contest",
+          "place": "TecNM Campus San Pedro, Coahuila",
+          "technologies": "Java, JavaScript, Python, SQL, C, C++",
+          "team": "Los bandidos binarios",
+          "type": "National",
+          "date": "May 31, 2023"
+        },
+        "itsa": {
+          "title": "3rd ITSA Contest",
+          "place": "TecNM Campus Ciudad Acuña, Coahuila",
+          "technologies": "Java, JavaScript, Python, SQL, C, C++",
+          "team": "Tacuaches Coding",
+          "type": "International",
+          "date": "November 10, 2023"
+        }
+      }
+    },"platforms": {
+      "title": "Competitive Programming Platforms",
+      "subtitle": "Online judges where I regularly practice algorithms, data structures, and problem-solving.",
+      "visitProfile": "View profile",
+      "items": {
+        "beecrowd": {
+          "name": "Beecrowd",
+          "description": "A platform for solving algorithmic problems and improving programming skills, used in competitive programming."
+        },
+        "leetcode": {
+          "name": "LeetCode",
+          "description": "A platform to practice coding challenges and prepare for technical interviews with problems from real-world companies."
+        }
+      }
+    },"certificates": {
+      "title": "Certificates",
+      "subtitle": "Verified courses and specializations in software architecture, version control, and web development.",
+      "viewCertificate": "View Certificate",
+      "items": {
+        "architecture": {
+          "course": "Software Architecture",
+          "platform": "SimpliLearn"
+        },
+        "github": {
+          "course": "GitHub In Depth",
+          "platform": "Código Facilito"
+        },
+        "php": {
+          "course": "PHP",
+          "platform": "SoloLearn"
+        },
+        "webdev": {
+          "course": "Web Development Fundamentals",
+          "platform": "SoloLearn"
+        },
+        "sql": {
+          "course": "SQL",
+          "platform": "SoloLearn"
+        }
       }
     }
   }

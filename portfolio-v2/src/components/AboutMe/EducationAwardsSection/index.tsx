@@ -1,0 +1,1 @@
+export { EducationAwardsSection } from "./EducationAwardsSection";
