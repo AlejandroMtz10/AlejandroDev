@@ -48,6 +48,9 @@
     "tools": {
       "git": "Version control system for tracking code changes.",
       "github": "Platform for hosting and collaborating on Git repositories.",
+      "sqlite": "Lightweight, file-based relational database management system.",
+      "postgresql": "Popular open-source relational database management system.",
+      "superbase": "Open-source backend-as-a-service platform.",
       "mariadb": "Open-source relational database management system.",
       "mysql": "Popular open-source relational database management system.",
       "sqlserver": "Enterprise relational database management system by Microsoft.",
@@ -59,6 +62,29 @@
       "uml": "Unified Modeling Language for designing and documenting software architectures.",
       "drawio": "Diagramming tool for system architecture and flowcharts.",
       "xampp": "Local cross-platform web server stack for PHP and MariaDB development."
+    }
+  },"Experience": {
+    "title": "Experience",
+    "description": "My background combines corporate software engineering with independent product development. Alongside my internships building internal enterprise tools and automation workflows, I co-founded 4LL Code Soft—a collaborative studio where we design and deliver custom web, desktop, and mobile solutions tailored to real business operations.",
+    "items": {
+      "4ll": {
+        "role": "Software Engineer & Co-Founder",
+        "company": "ALL Code Soft",
+        "period": "May 2024 – Present",
+        "summary": "Designing and developing end-to-end web, desktop, and mobile applications for local businesses, translating operational needs into scalable software."
+      },
+      "caterpillar": {
+        "role": "Software Developer Intern",
+        "company": "Caterpillar Inc.",
+        "period": "October 2023 – April 2024",
+        "summary": "Built internal applications, interactive Power BI dashboards, and automated workflows with Power Apps & Power Automate, cutting manual reporting time by ~40%."
+      },
+      "toter": {
+        "role": "Software Developer Intern",
+        "company": "Toter LLC",
+        "period": "December 2022 – September 2023",
+        "summary": "Developed and deployed a Visual Basic & MySQL desktop system to manage inter-plant cargo shipments, reducing part loss by 30%."
+      }
     }
   }
 }
