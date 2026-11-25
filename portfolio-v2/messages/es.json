@@ -65,7 +65,7 @@
     }
   },"Experience": {
     "title": "Experiencia",
-    "description": "Mi trayectoria combina el desarrollo de software en entornos corporativos con la creación independiente de productos. Junto con mis prácticas construyendo herramientas internas y flujos automatizados, cofundé 4LL Code Soft, un estudio colaborativo donde diseñamos y entregamos soluciones web, de escritorio y móviles a la medida.",
+    "description": "Mi trayectoria combina el desarrollo de software en entornos corporativos con la creación independiente de productos. Junto con mis prácticas construyendo herramientas internas y flujos automatizados, cofundé ALL Code Soft, un estudio colaborativo donde diseñamos y entregamos soluciones web, de escritorio y móviles a la medida.",
     "items": {
       "4ll": {
         "role": "Ingeniero de Software y Cofundador",
@@ -84,6 +84,116 @@
         "company": "Toter LLC",
         "period": "Diciembre 2022 – Septiembre 2023",
         "summary": "Desarrollo e implementación de un sistema de escritorio en Visual Basic y MySQL para el control de envíos entre plantas, reduciendo la pérdida de piezas en un 30%."
+      }
+    }
+  },"Education": {
+    "title": "Educación y Logros Académicos",
+    "description": "Cursé la Ingeniería en Sistemas Computacionales en el Tecnológico Nacional de México (Campus Ciudad Acuña), con especialidad en arquitectura y diseño de software. Durante mi carrera participé en concursos nacionales e internacionales de programación, desarrollé proyectos reales en empresas como Toter y Caterpillar, y fui reconocido tres veces entre los mejores promedios de la Academia de Sistemas, egresando como el primer lugar de la generación 2019–2024.",
+    "awardsTitle": "Reconocimientos de Excelencia Académica",
+    "viewImage": "Ver foto",
+    "closeModal": "Cerrar vista previa",
+    "awards": {
+      "award2021": {
+        "title": "Mejor Promedio (6.º Lugar General)",
+        "description": "Obtuve el 6.º lugar en el cuadro de honor Top 10 de la Academia de Sistemas entre todos los semestres durante mi 4.º semestre.",
+        "year": "2021"
+      },
+      "award2022": {
+        "title": "Mejor Promedio (1.º Lugar General)",
+        "description": "Alcancé el 1.º lugar del ranking Top 10 de la Academia de Sistemas entre todos los semestres durante mi 7.º semestre.",
+        "year": "2022"
+      },
+      "award2023": {
+        "title": "Mejor Promedio (1.º Lugar General)",
+        "description": "Obtuve nuevamente el 1.º lugar general en el ranking de la Academia de Sistemas durante mi 8.º semestre.",
+        "year": "2023"
+      },
+      "award2024": {
+        "title": "Mejor Promedio de la Generación",
+        "description": "Egresé con honores como el estudiante con el promedio más alto de la carrera de Ingeniería en Sistemas Computacionales (generación 2019–2024).",
+        "year": "2024"
+      },
+      "degree2025": {
+        "title": "Título de Ingeniero en Sistemas Computacionales",
+        "description": "Obtención oficial de mi título profesional en Ingeniería en Sistemas Computacionales y cédula profesional.",
+        "year": "2025"
+      }
+    },"contests": {
+      "title": "Concursos de Programación",
+      "descriptionPrefix": "He participado en diversos concursos de programación competitiva, trabajando en equipo para resolver retos algorítmicos en múltiples lenguajes. Puedes explorar mis soluciones en mi",
+      "repoLinkText": "repositorio de GitHub",
+      "labels": {
+        "place": "Sede",
+        "technologies": "Lenguajes",
+        "team": "Equipo",
+        "date": "Fecha",
+        "viewCertificate": "Ver certificado"
+      },
+      "items": {
+        "icpc": {
+          "title": "ICPC Texas State University",
+          "place": "Texas State University, San Marcos, Texas",
+          "technologies": "Java, C, C++",
+          "team": "The Noodles Team",
+          "type": "Internacional",
+          "date": "1 de abril de 2023"
+        },
+        "sanpedro": {
+          "title": "8.º Concurso ITS San Pedro",
+          "place": "TecNM Campus San Pedro, Coahuila",
+          "technologies": "Java, JavaScript, Python, SQL, C, C++",
+          "team": "Los bandidos binarios",
+          "type": "Nacional",
+          "date": "31 de mayo de 2023"
+        },
+        "itsa": {
+          "title": "3.º Concurso ITSA",
+          "place": "TecNM Campus Ciudad Acuña, Coahuila",
+          "technologies": "Java, JavaScript, Python, SQL, C, C++",
+          "team": "Tacuaches Coding",
+          "type": "Internacional",
+          "date": "10 de noviembre de 2023"
+        }
+      }
+    },"platforms": {
+      "title": "Plataformas de Programación Competitiva",
+      "subtitle": "Jueces en línea donde practico algoritmos, estructuras de datos y resolución de problemas.",
+      "visitProfile": "Ver perfil",
+      "items": {
+        "beecrowd": {
+          "name": "Beecrowd",
+          "description": "Plataforma para resolver problemas algorítmicos y mejorar habilidades de programación, utilizada en programación competitiva."
+        },
+        "leetcode": {
+          "name": "LeetCode",
+          "description": "Plataforma para practicar retos de código y prepararse para entrevistas técnicas con problemas de empresas reales."
+        }
+      }
+    },"certificates": {
+      "title": "Certificados",
+      "subtitle": "Cursos y especializaciones verificadas en arquitectura de software, control de versiones y desarrollo web.",
+      "viewCertificate": "Ver Certificado",
+      "items": {
+        "architecture": {
+          "course": "Arquitectura de Software",
+          "platform": "SimpliLearn"
+        },
+        "github": {
+          "course": "Curso a Fondo de GitHub",
+          "platform": "Código Facilito"
+        },
+        "php": {
+          "course": "PHP",
+          "platform": "SoloLearn"
+        },
+        "webdev": {
+          "course": "Fundamentos de Desarrollo Web",
+          "platform": "SoloLearn"
+        },
+        "sql": {
+          "course": "SQL",
+          "platform": "SoloLearn"
+        }
       }
     }
   }

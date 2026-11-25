@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ResumeButton } from "@/components/UI/BtnResume";
 import { SkillsSection } from "@/components/AboutMe/SkillsSection";
 import { ExperienceSection } from "@/components/AboutMe/ExperienceSection";
+import { EducationAwardsSection } from "@/components/AboutMe/EducationAwardsSection";
 
 export default async function AboutMePage({
   params,
@@ -69,6 +70,7 @@ export default async function AboutMePage({
       </section>
       <SkillsSection />
       <ExperienceSection />
+      <EducationAwardsSection />
       {/* Next sections (Technologies, Tools, Experience, Education, etc.) will go here */}
     </div>
   );
