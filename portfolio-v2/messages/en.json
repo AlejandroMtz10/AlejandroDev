@@ -196,5 +196,91 @@
         }
       }
     }
+  },"Projects": {
+    "eyebrow": "PORTFOLIO",
+    "title": "Featured Projects",
+    "subtitle": "A chronological showcase of web applications, desktop systems, and enterprise automation solutions built for companies, clients, and personal initiatives.",
+    "viewImage": "Preview",
+    "closeModal": "Close preview",
+    "viewCode": "Source Code",
+    "privateRepo": "Private / Corporate",
+    "filters": {
+      "all": "All",
+      "web": "Web Apps",
+      "desktop": "Desktop",
+      "lowcode": "Power Platform"
+    },
+    "items": {
+      "faceFrames": {
+        "title": "Face-Frames",
+        "platform": "Web Application",
+        "context": "Open Source / Personal",
+        "date": "Dec 2025",
+        "description": "Face shape-based eyewear recommender leveraging real-time facial recognition and biometric landmarks from Google's MediaPipe library to analyze facial proportions and suggest matching frames."
+      },
+      "acaaz": {
+        "title": "Acaaz",
+        "platform": "Web Application",
+        "context": "4LL Code Soft",
+        "date": "2025",
+        "description": "Point of Sale (POS) and inventory management system for a local produce and grocery store. Features cash register control, sales and invoice tracking, and a 7-day revenue analytics chart."
+      },
+      "aclink": {
+        "title": "AcLink",
+        "platform": "Web Application",
+        "context": "4LL Code Soft",
+        "date": "2025",
+        "description": "Member registration and credentialing platform that captures personal data, voter ID images (front and back), and portraits to automatically generate printable affiliation ID badges."
+      },
+      "markedDrawings": {
+        "title": "Marked Drawings",
+        "platform": "Web / Low-Code App",
+        "context": "Caterpillar",
+        "date": "2024",
+        "description": "Engineering application to monitor temporary changes on technical drawings. Automated Power Automate flows send expiration alerts and update drawing statuses to ensure traceability and prevent duplicates."
+      },
+      "goals": {
+        "title": "Goals",
+        "platform": "Web / Low-Code App",
+        "context": "Caterpillar",
+        "date": "2024",
+        "description": "Operational analytics platform evaluating factory productivity, quality compliance, and accident-free safety days, paired with Power BI dashboards for data-driven decision-making."
+      },
+      "msoTrucks": {
+        "title": "MSO Trucks",
+        "platform": "Web / Low-Code App",
+        "context": "Caterpillar",
+        "date": "2024",
+        "description": "Serial number traceability application for part assemblies across engineering, logistics, and quality departments, streamlining documentation audits and on-time shipment verification."
+      },
+      "toterShipment": {
+        "title": "Toter Detail Shipment",
+        "platform": "Desktop Application",
+        "context": "Toter",
+        "date": "2023",
+        "description": "Inter-plant cargo tracking and inventory control desktop system in Ciudad Acuña, enabling engineers and logistics teams to monitor shipment statuses and significantly reduce lost parts."
+      },
+      "titan": {
+        "title": "Servicios y Suministros Titan",
+        "platform": "Website & Web App",
+        "context": "Servicios y Suministros Titan",
+        "date": "May 2023",
+        "description": "Corporate website and catalog management system allowing customers to request quotes online while enabling staff to dynamically update product and service pricing."
+      },
+      "personalityTests": {
+        "title": "Personality Tests",
+        "platform": "Desktop Application",
+        "context": "Lic. Martín Reyes",
+        "date": "Dec 2022",
+        "description": "Digital psychology assessment desktop application designed to evaluate new patients prior to therapy sessions, streamlining diagnostics while eliminating paper and printing costs."
+      },
+      "cesarsSnack": {
+        "title": "Cesar's Snack",
+        "platform": "Desktop Application",
+        "context": "Cesar Humberto Rodríguez",
+        "date": "Jun 2022",
+        "description": "Point of Sale and inventory control desktop system built for a fast-food business, featuring automated low-stock alerts and streamlined order and sales management."
+      }
+    }
   }
 }
