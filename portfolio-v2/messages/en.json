@@ -61,7 +61,10 @@
       "postman": "API client for testing, documenting, and managing HTTP requests.",
       "uml": "Unified Modeling Language for designing and documenting software architectures.",
       "drawio": "Diagramming tool for system architecture and flowcharts.",
-      "xampp": "Local cross-platform web server stack for PHP and MariaDB development."
+      "xampp": "Local cross-platform web server stack for PHP and MariaDB development.",
+      "vercel": "Cloud platform for deploying and hosting web applications with serverless functions.",
+      "npm": "Node.js package manager for installing and managing JavaScript libraries.",
+      "pnpm": "Fast, disk space-efficient package manager for Node.js."
     }
   },"Experience": {
     "title": "Experience",
@@ -281,6 +284,35 @@
         "date": "Jun 2022",
         "description": "Point of Sale and inventory control desktop system built for a fast-food business, featuring automated low-stock alerts and streamlined order and sales management."
       }
+    }
+  },"Contact": {
+    "eyebrow": "CONTACT",
+    "title": "Get in Touch",
+    "subtitle": "Have a project in mind, a remote role opportunity, or want to collaborate? Send me a message and I will get back to you soon.",
+    "directTitle": "Direct Contact",
+    "directSubtitle": "Prefer email or social platforms? You can reach me directly through any of these channels.",
+    "locationLabel": "Location",
+    "locationValue": "Ciudad Acuña, Coahuila, Mexico (UTC-6)",
+    "availabilityLabel": "Availability",
+    "availabilityValue": "Open to remote Software Engineering roles & freelance projects",
+    "form": {
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Project inquiry, job opportunity, collaboration...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell me about your project, timeline, or how we can work together...",
+      "cancelButton": "Cancel",
+      "submitButton": "Send Message",
+      "sendingButton": "Sending..."
+    },
+    "toasts": {
+      "invalidEmail": "Please enter a valid email address.",
+      "missingConfig": "Email service is not configured yet.",
+      "success": "Message sent successfully!",
+      "successDesc": "Thank you for reaching out. I will reply as soon as possible.",
+      "error": "Failed to send message. Please try again or copy my email directly.",
+      "canceled": "Message discarded"
     }
   }
 }

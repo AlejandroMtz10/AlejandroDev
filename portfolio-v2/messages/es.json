@@ -61,7 +61,10 @@
       "postman": "Herramienta para probar APIs y gestionar peticiones HTTP.",
       "uml": "Lenguaje Unificado de Modelado para diseñar arquitecturas de software.",
       "drawio": "Herramienta para crear diagramas de arquitectura y flujos de procesos.",
-      "xampp": "Entorno local multiplataforma para servidores web con PHP y MariaDB."
+      "xampp": "Entorno local multiplataforma para servidores web con PHP y MariaDB.",
+      "vercel": "Plataforma en la nube para desplegar y alojar aplicaciones web con funciones serverless.",
+      "npm": "Gestor de paquetes para instalar y administrar librerías de JavaScript.",
+      "pnpm": "Gestor de paquetes rápido y eficiente en espacio para Node.js."
     }
   },"Experience": {
     "title": "Experiencia",
@@ -281,6 +284,35 @@
         "date": "Jun 2022",
         "description": "Punto de venta y control de inventario para un negocio de comida rápida, con alertas automáticas de stock bajo o agotado para agilizar el servicio y la administración de ventas."
       }
+    }
+  },"Contact": {
+    "eyebrow": "CONTACTO",
+    "title": "Hablemos",
+    "subtitle": "¿Tienes un proyecto en mente, una vacante remota o te gustaría colaborar? Envíame un mensaje y te responderé pronto.",
+    "directTitle": "Contacto Directo",
+    "directSubtitle": "¿Prefieres escribirme directamente o conectar en redes? Aquí tienes mis canales principales.",
+    "locationLabel": "Ubicación",
+    "locationValue": "Ciudad Acuña, Coahuila, México (UTC-6)",
+    "availabilityLabel": "Disponibilidad",
+    "availabilityValue": "Disponible para puestos remotos de Ingeniería de Software y proyectos",
+    "form": {
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "subjectLabel": "Asunto",
+      "subjectPlaceholder": "Consulta de proyecto, oportunidad laboral, colaboración...",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto, tiempos o cómo podemos colaborar...",
+      "cancelButton": "Cancelar",
+      "submitButton": "Enviar Mensaje",
+      "sendingButton": "Enviando..."
+    },
+    "toasts": {
+      "invalidEmail": "Por favor ingresa un correo electrónico válido.",
+      "missingConfig": "El servicio de correo aún no está configurado.",
+      "success": "¡Mensaje enviado con éxito!",
+      "successDesc": "Gracias por contactarme. Te responderé lo antes posible.",
+      "error": "No se pudo enviar el mensaje. Inténtalo de nuevo o copia mi correo directamente.",
+      "canceled": "Mensaje cancelado"
     }
   }
 }
