@@ -196,5 +196,91 @@
         }
       }
     }
+  },"Projects": {
+    "eyebrow": "PORTAFOLIO",
+    "title": "Proyectos Destacados",
+    "subtitle": "Recorrido cronológico de aplicaciones web, sistemas de escritorio y soluciones de automatización empresarial desarrolladas para empresas, clientes e iniciativas propias.",
+    "viewImage": "Vista previa",
+    "closeModal": "Cerrar vista previa",
+    "viewCode": "Código fuente",
+    "privateRepo": "Privado / Corporativo",
+    "filters": {
+      "all": "Todos",
+      "web": "Apps Web",
+      "desktop": "Escritorio",
+      "lowcode": "Power Platform"
+    },
+    "items": {
+      "faceFrames": {
+        "title": "Face-Frames",
+        "platform": "Aplicación Web",
+        "context": "Open Source / Personal",
+        "date": "Dic 2025",
+        "description": "Recomendador de armazones según la forma del rostro que utiliza reconocimiento facial en tiempo real y puntos biométricos de MediaPipe (Google) para calcular proporciones faciales y sugerir lentes ideales."
+      },
+      "acaaz": {
+        "title": "Acaaz",
+        "platform": "Aplicación Web",
+        "context": "4LL Code Soft",
+        "date": "2025",
+        "description": "Sistema de Punto de Venta (POS) y control de inventario para una tienda local de frutas, verduras y abarrotes. Incluye corte de caja, registro de ventas y gráficas de ingresos de los últimos 7 días."
+      },
+      "aclink": {
+        "title": "AcLink",
+        "platform": "Aplicación Web",
+        "context": "4LL Code Soft",
+        "date": "2025",
+        "description": "Plataforma de registro y credencialización que captura datos personales, fotografías e imágenes de identificación (frente y reverso) para generar gafetes imprimibles de afiliación."
+      },
+      "markedDrawings": {
+        "title": "Marked Drawings",
+        "platform": "Aplicación Web / Low-Code",
+        "context": "Caterpillar",
+        "date": "2024",
+        "description": "Aplicación para ingeniería que monitorea cambios temporales en planos técnicos. Flujos de Power Automate envían alertas por correo y actualizan estados al vencer, evitando duplicados y garantizando trazabilidad."
+      },
+      "goals": {
+        "title": "Goals",
+        "platform": "Aplicación Web / Low-Code",
+        "context": "Caterpillar",
+        "date": "2024",
+        "description": "Aplicación enfocada en evaluar productividad, estándares de calidad y días sin accidentes en planta, integrada con tableros en Power BI para visualizar métricas y apoyar la toma de decisiones."
+      },
+      "msoTrucks": {
+        "title": "MSO Trucks",
+        "platform": "Aplicación Web / Low-Code",
+        "context": "Caterpillar",
+        "date": "2024",
+        "description": "Sistema de trazabilidad de números de serie para ensambles de piezas entre ingeniería, logística y calidad, agilizando auditorías documentales y verificaciones de embarque."
+      },
+      "toterShipment": {
+        "title": "Toter Detail Shipment",
+        "platform": "Aplicación de Escritorio",
+        "context": "Toter",
+        "date": "2023",
+        "description": "Software de escritorio para monitorear envíos entre plantas en Ciudad Acuña y controlar inventario en tránsito, reduciendo significativamente pérdidas de material y tiempos de gestión."
+      },
+      "titan": {
+        "title": "Servicios y Suministros Titan",
+        "platform": "Sitio Web y Aplicación Web",
+        "context": "Servicios y Suministros Titan",
+        "date": "May 2023",
+        "description": "Sitio web corporativo y gestor de precios donde los clientes pueden solicitar cotizaciones y el personal actualizar dinámicamente costos de productos y servicios."
+      },
+      "personalityTests": {
+        "title": "Personality Tests",
+        "platform": "Aplicación de Escritorio",
+        "context": "Lic. Martín Reyes",
+        "date": "Dic 2022",
+        "description": "Aplicación de escritorio para aplicar pruebas psicológicas digitales antes de iniciar terapias con nuevos pacientes, optimizando el diagnóstico y eliminando costos de papel e impresión."
+      },
+      "cesarsSnack": {
+        "title": "Cesar's Snack",
+        "platform": "Aplicación de Escritorio",
+        "context": "Cesar Humberto Rodríguez",
+        "date": "Jun 2022",
+        "description": "Punto de venta y control de inventario para un negocio de comida rápida, con alertas automáticas de stock bajo o agotado para agilizar el servicio y la administración de ventas."
+      }
+    }
   }
 }
