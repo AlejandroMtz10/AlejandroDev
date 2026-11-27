@@ -25,7 +25,7 @@ export const TECHNOLOGIES: TechnologyItem[] = [
   { name: "Vite", icon: "devicon:vitejs" },
   { name: "Next.js", icon: "devicon:nextjs" },
   { name: "SQL", icon: "devicon:azuresqldatabase" },
-  { name: "JSON", icon: "devicon:json" }
+  { name: "JSON", icon: "devicon:json" },
 ];
 
 export const TOOLS: ToolItem[] = [
@@ -88,5 +88,21 @@ export const TOOLS: ToolItem[] = [
     name: "XAMPP",
     icon: "simple-icons:xampp",
     colorClass: "text-[#FB7A24]",
+  },{
+    key: "vercel",
+    name: "Vercel",
+    icon: "simple-icons:vercel",
+    colorClass: "text-[#000000]"
+  },{
+    key: "npm",
+    name: "npm",
+    icon: "simple-icons:npm",
+    colorClass: "text-[#CB3837]"
+  },
+  {
+    key: "pnpm",
+    name: "pnpm",
+    icon: "simple-icons:pnpm",
+    colorClass: "text-[#F69220]"
   },
 ];
